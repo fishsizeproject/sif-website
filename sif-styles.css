@@ -1,12 +1,44 @@
 /* css styles */
 
-.thumbnail {
-  width: 90%; 
-  height: auto; 
-  margin: 5% 5% 5% 5%;
+/* Custom header and footer definitions */
+
+.footer-text {
+  color: #ffffff; 
 }
 
-/* Custom classes */
+.footer-link, .sitemap-link {
+  text-decoration: none;
+  color: rgba(255,255,255,0.5);
+}
+
+.sitemap-link {
+  text-transform: uppercase;
+}
+
+.footer-link:hover, .sitemap-link:hover {
+  color: #ffffff;
+}
+
+.nav-footer {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  border: 0px;
+  background-color: #8cb365;
+  color: #f8f9fa;
+}
+
+.nav-footer-center {
+  flex-grow: 0;
+}
+
+
+/* Custom classes for ease of editing */
+
+.spacer-2em {
+  margin: 2em;
+  height: 0px;
+}
+
 
 .image {
   width: 100%;
@@ -16,4 +48,12 @@
 
 .sm-padding {
   padding: 5%;
+}
+
+.md-padding {
+  padding: 10%;
+}
+
+.lg-padding {
+  padding: 15%;
 }

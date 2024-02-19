@@ -76,6 +76,10 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 <!-- end of grid -->
 :::
 
+::: spacer-2em
+ 
+:::
+
 ## Daugiau apie mūsų veiklas
 
 ::: d-grid

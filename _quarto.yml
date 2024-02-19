@@ -4,7 +4,7 @@ project:
   output-dir: docs
   preview: 
     browser: true
-execute:
+execute: 
   freeze: auto # so R/Python code only runs locally
 
 website:
@@ -58,20 +58,6 @@ website:
     toggle-position: right # The position of the collapsed navbar toggle in responsive mode
   page-navigation: false # Provide next and previous article links in footer
   back-to-top-navigation: true
-  # Footer options (see https://quarto.org/docs/reference/projects/websites.html#page-footer)
-  page-footer:
-    left: |
-      Lydekai paliepus
-      Gamtos tyrimų centras
-      Akademijos g. 2, LT-08412, Vilnius
-      [www.gamtostyrimai.lt](www.gamtostyrimai.lt)
-    right: |
-      [Apie mus](pages/empty.qmd)
-      [Grupė](pages/empty.qmd)
-      [Susisiekite](pages/empty.qmd)
-      [Tinklapį sukūrė Phillip England: lydekaipaliepus@gamtc.lt](mailto:lydekaipaliepus@gamtc.lt)
-    background: dark
-    foreground: light
 
 format:
   html:
@@ -87,3 +73,5 @@ format:
       gutter-width: 0px
     toc: false
     fig-responsive: true
+    include-after-body: 
+      file: footer.html
