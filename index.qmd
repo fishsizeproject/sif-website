@@ -71,7 +71,7 @@ style="position: relative; width: 100%; height: 100%; object-fit: contain; paddi
 
 ::::: {.row style="width: 100%; display: flex;"}
 
-:::: {.col .mx-1 style="background-color: #8cb365; width: 33.3333%"}
+:::: {.col .mx-1 style="background-color: #8cb365; width: 33.3333%;"}
 <img src="images/models-1.webp"
 style="position: relative; width: 100%; height: 100%; object-fit: contain; padding: 5%; margin-bottom: -1em;"
 />
@@ -81,7 +81,7 @@ style="position: relative; width: 100%; height: 100%; object-fit: contain; paddi
 :::
 ::::
 
-:::: {.col .mx-1 style="background-color: #65beb2; width: 33.3333%"}
+:::: {.col .mx-1 style="background-color: #65beb2; width: 33.3333%;"}
 <img
 src="images/datasets-1.webp"
 style="position: relative; width: 100%; height: 100%; object-fit: contain; padding: 5%; margin-bottom: -1em;"
@@ -92,7 +92,7 @@ style="position: relative; width: 100%; height: 100%; object-fit: contain; paddi
 :::
 ::::
 
-:::: {.col .mx-1 style="background-color: #65beb2; width: 33.3333%"}
+:::: {.col .mx-1 style="background-color: #65beb2; width: 33.3333%;"}
 <img
 src="images/fishsizeproject-1.webp"
 style="position: relative; width: 100%; height: 100%; object-fit: contain; padding: 5%; margin-bottom: -1em;"
@@ -112,7 +112,7 @@ style="position: relative; width: 100%; height: 100%; object-fit: contain; paddi
 ## Daugiau apie mūsų veiklas
 
 :::::: {.d-grid}
-::::: {.row .d-flex style="width: 100%;"}
+::::: {.row style="width: 100%; display: flex;"}
 
 :::: {.col .mx-1 style="width: 35%;"}
 ::: {.ratio .ratio-16x9 width="100%;"}
@@ -142,7 +142,7 @@ allowfullscreen></iframe>
 ::::::
 
 :::::: {.d-grid style="box-shadow: 0px 20px 40px rgba(0,0,0,0.1); margin-bottom: 30px"}
-::::: {.row .d-flex style="width: 100%;"}
+::::: {.row style="width: 100%; display: flex;"}
 
 :::: {.col .align-self-center style="width: 50%;"}
 ::: text-center
@@ -169,7 +169,7 @@ style="position: relative; width: 100%; height: 100%; object-fit: contain; paddi
 # Nuotoliniai mokymai (anglų kalba)
 
 :::::: {.d-grid .gap-2 style="box-shadow: 0px 20px 40px rgba(0,0,0,0.1); margin-bottom: 30px; background-color: #ffffff"}
-::::: {.row .d-flex style="width: 100%;"}
+::::: {.row style="width: 100%; display: flex;"}
 :::: {.col .p-3 .align-self-center style="width: 50%;"}
 Individų dydžiais paremti ekosistemų modeliai ir jų taikymas vidaus vandenų ir pakrantės ekosistemoms
 
@@ -190,7 +190,7 @@ style="position: relative; width: 100%; height: 100%; object-fit: contain; paddi
 <!-- end of row -->
 :::::
 
-::::: {.row .d-flex style="width: 100%;"}
+::::: {.row style="width: 100%; display: flex;"}
 :::: {.col .p-3 .align-self-center style="width: 50%;"}
 Dirbtiniu intelektu paremtas vaizdų surinkimas ir analizė biologiniuose tyrimuose
 
@@ -211,7 +211,7 @@ style="position: relative; width: 100%; height: 100%; object-fit: contain; paddi
 <!-- end of row -->
 :::::
 
-::::: {.row .d-flex style="width: 100%;"}
+::::: {.row style="width: 100%; display: flex;"}
 :::: {.col .p-3 .align-self-center style="width: 50%;"}
 Sugavimų pastangai standartizavimas žuvininkystės tyrimuose naudojant R programą
 
@@ -232,7 +232,7 @@ style="position: relative; width: 100%; height: 100%; object-fit: contain; paddi
 <!-- end of row -->
 :::::
 
-::::: {.row .d-flex style="width: 100%;"}
+::::: {.row style="width: 100%; display: flex;"}
 :::: {.col .p-3 .align-self-center style="width: 50%;"}
 Biologinių duomenų paruošimas statistinei analizei
 
@@ -264,21 +264,116 @@ style="position: relative; width: 100%; height: 100%; object-fit: contain; paddi
 
 
 ::::: {.d-grid}
-:::: {.row width="100%"}
-::: {.col width="33.33333%"}
-<embed width="100%" height="100%" name="plugin" src="pdfs/ZvejybosTaisykles_202--525.pdf" type="application/pdf">
-:::
-::: {.col width="33.33333%"}
+
+::::: {.row style="width: 100%; display: flex;"}
+
+::: {.col style="width: 33.33333%;"}
 <img
-src="images/dataTypes.webp"
+src="pdfs/thumbnails/ZvejybosTaisykles_20200525.pdf-page_1.jpg"
 style="position: relative; width: 100%; height: 100%; object-fit: contain; padding: 5%; margin-bottom: -1em"
 />
+<!-- {{< pdf pdfs/ZvejybosTaisykles_20200525.pdf width=100% height=auto >}} -->
+
+#### ŽVEJYBOS TAISYKLĖS
 :::
-::: {.col width="33.33333%"}
+
+::: {.col style="width: 33.33333%;"}
 <img
-src="images/dataTypes.webp"
+src="pdfs/thumbnails/form.jpg"
 style="position: relative; width: 100%; height: 100%; object-fit: contain; padding: 5%; margin-bottom: -1em"
 />
+
+#### Anketa žvejams
 :::
+
+::: {.col style="width: 33.33333%;"}
+<img
+src="pdfs/thumbnails/A6 flyer-sideA.pdf - LydekaiPaliepus-flyer.pdf.pdf-page_1.jpg"
+style="position: relative; width: 100%; height: 100%; object-fit: contain; padding: 5%; margin-bottom: -1em"
+/>
+
+#### Atsisiųskite mūsų skrajutę
+:::
+
+<!-- end of row -->
 ::::
+
+::::: {.row style="width: 100%; display: flex;"}
+
+::: {.col style="width: 33.33333%;"}
+<img
+src="pdfs/thumbnails/Nauja programėlė žvejams FishSizeProject - FishSizeProject1-original-page2.pdf-page_1.jpg"
+style="position: relative; width: 100%; height: 100%; object-fit: contain; padding: 5%; margin-bottom: -1em"
+/>
+
+
+#### Programėlė Fish Size Project
+:::
+
+::: {.col style="width: 33.33333%;"}
+<img
+src="pdfs/thumbnails/Nauja programėlė žvejams FishSizeProject1.pdf - Nauja-programėlė-žvejams-FishSizeProject1-page-1.pdf-page_1.jpg"
+style="position: relative; width: 100%; height: 100%; object-fit: contain; padding: 5%; margin-bottom: -1em"
+/>
+
+#### Senų nuotraukų konkursas
+:::
+
+::: {.col style="width: 33.33333%;"}
+<img
+src="pdfs/thumbnails/Nauja programėlė žvejams FishSizeProject1.pdf - Nauja-programėlė-žvejams-FishSizeProject1-page-1.pdf-page_1.jpg"
+style="position: relative; width: 100%; height: 100%; object-fit: contain; padding: 5%; margin-bottom: -1em"
+/>
+
+#### Žuvų nuotraukų konkursas
+:::
+
+<!-- end of row -->
+::::
+
+<!-- end of grid -->
 :::::
+
+:::::: {.d-grid}
+::::: {.row style="width: 100%; display: flex;"}
+:::: {.col .align-self-center style="width: 10%;"}
+### {{< fa brands square-facebook size=2x href="https://www.facebook.com/Lydekai-paliepus-114033690479267">}} 
+::::
+
+:::: {.col .align-self-center style="width: 40%; text-align: center;"}
+### Mūsų Facebook paskyra
+::::
+
+:::: {.col .align-self-center style="width: 10%;"}
+### {{< fa brands square-youtube size=2x href="https://www.youtube.com/channel/UCHq5ojgsyjh5VdEWNuDgMqg">}} 
+::::
+
+:::: {.col .align-self-center style="width: 40%; text-align: center;"}
+### Mūsų YouTube paskyra
+::::
+
+<!-- end of row -->
+:::::
+
+<!-- end of grid -->
+::::::
+
+<!--  -->
+:::::: {.d-grid style="background-color: #e2e2e2; box-shadow: 0px 20px 40px rgba(0,0,0,0.1); justify-content: center;"}
+::::: {.row style="width: 100%; display: flex;"}
+:::: {.col .align-self-center style="width: 50%; padding: 40px;"}
+Projektas finansuojamas iš Europos regioninės plėtros fondo lėšų pagal priemonės Nr. 01.2.2-LMT-K-718 veiklą ,,Mokslininkų iš užsienio pritraukimas vykdyti mokslinius tyrimus”, projektas „Pažangūs modeliai, piliečių mokslas ir didieji duomenys tvariai vidaus vandenų maisto produkcijai ir ekosistemų paslaugoms“
+::::
+
+:::: {.col .align-self-center style="width: 50%;"}
+<img
+src="images/ESFIVP-I-1.gif"
+style="position: relative; width: 100%; height: 100%; object-fit: contain; padding: 5%; margin-bottom: -1em"
+/>
+::::
+
+<!-- end of row -->
+:::::
+
+<!-- end of grid -->
+::::::
