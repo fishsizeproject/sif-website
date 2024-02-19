@@ -1,0 +1,29 @@
+---
+title: "Lydekai Paliepus"
+subtitle: Sveikos ekosistemos kintančiame pasaulyje
+format: html
+---
+
+<!-- Hero/banner image -->
+
+<!-- Title is automatic -->
+
+::: body
+Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrimų Centro](http://www.gamtostyrimai.lt/) mokslininkų vykdomas projektas. Mūsų tikslas - prisidėti gerinant ekosistemų būklę ir žuvininkystės valdymą Lietuvos vidaus vandenyse ir pasaulyje. Ežerai, tvenkiniai, upės yra svarbūs tiek gyvajai gamtai, tiek žmonių poilsiui, žvejybai bei ekosistemų paslaugoms. Mes siekiame geriau suprasti žmogaus įtaką vidaus vandenų ekosistemoms, sukurti aiškius ir šiuolaikiškus modelius ir priemones žuvų išteklių valdymui, bei pasitelkti piliečių mokslą žuvų gausumo ir ekosistemos būklės įvertinimui.
+:::
+
+<!-- Placeholder: grid of page buttons goes here -->
+
+::: grid
+::: row
+
+:::
+:::
+
+## Daugiau apie mūsų veiklas
+
+# Nuotoliniai mokymai (anglų kalba)
+
+::: {.column-screen}
+![A full screen image](/image.png)
+:::

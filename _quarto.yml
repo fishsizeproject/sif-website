@@ -1,0 +1,89 @@
+# All website project options: https://quarto.org/docs/reference/projects/websites.html
+project:
+  type: website
+  output-dir: docs
+  preview: 
+    browser: true
+execute:
+  freeze: auto # so R/Python code only runs locally
+
+website:
+  title: "Lydekai Paliepus"
+  description: "Sveikos ekosistemos kintančiame pasaulyje"
+  favicon: images/SIF-LOGO-Lt-1000px.webp
+  site-url: https://sif-quarto.drtreimer.com
+  repo-url: https://github.com/stormeyseas/sif-quarto.github.io
+  reader-mode: false
+# Sidebar options (see https://quarto.org/docs/reference/projects/websites.html#sidebar)
+  sidebar: 
+    - id: mainsidebar
+      title: " "
+      style: "docked"
+      border: false
+      contents: "auto"
+      background: "light"
+      foreground: light
+
+# Navbar options (see https://quarto.org/docs/reference/projects/websites.html#navbar)
+  navbar: 
+    title: false
+    logo: images/SIF-LOGO-Lt-1000px.webp
+    pinned: true
+    collapse: true
+    # List of items for the each section of the navbar (left, right, center)
+    right: 
+      - text: "Pradžia"
+        href: index.qmd
+      - text: "Puslapiai"
+        href: pages/empty.qmd
+        menu:
+        - text: "Programele"
+          href: pages/empty.qmd
+        - text: "Zvejams"
+          href: pages/empty.qmd
+        - text: "Valdymui"
+          href: pages/empty.qmd
+        - text: "Mokslui"
+          href: pages/empty.qmd
+        - text: "Modeliai"
+          href: pages/empty.qmd
+        - text: "Duomenys"
+          href: pages/empty.qmd
+      - text: "Grupė"
+        href: pages/empty.qmd
+      - text: "Media"
+        href: pages/empty.qmd
+      - text: "Susisiekite"
+        href: pages/empty.qmd
+    toggle-position: right # The position of the collapsed navbar toggle in responsive mode
+  page-navigation: false # Provide next and previous article links in footer
+  back-to-top-navigation: true
+  # Footer options (see https://quarto.org/docs/reference/projects/websites.html#page-footer)
+  page-footer:
+    left: |
+      Lydekai paliepus
+      Gamtos tyrimų centras
+      Akademijos g. 2, LT-08412, Vilnius
+      [www.gamtostyrimai.lt](www.gamtostyrimai.lt)
+    right: |
+      [Apie mus](pages/empty.qmd)
+      [Grupė](pages/empty.qmd)
+      [Susisiekite](pages/empty.qmd)
+      [Tinklapį sukūrė Phillip England: lydekaipaliepus@gamtc.lt](mailto:lydekaipaliepus@gamtc.lt)
+    background: dark
+    foreground: light
+
+format:
+  html:
+    theme:
+      light: lightly
+      dark: darkly
+    # css: resources/styling/styles.css
+    page-layout: full
+    grid:
+      sidebar-width: 350px
+      body-width: 1250px
+      margin-width: 350px
+      gutter-width: 75px
+    toc: false
+    fig-responsive: true
