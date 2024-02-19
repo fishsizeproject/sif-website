@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "responsive-widths.html",
-    "href": "responsive-widths.html",
+    "objectID": "theming/responsive-widths.html",
+    "href": "theming/responsive-widths.html",
     "title": "Testing responsiveness",
     "section": "",
     "text": "Width = column-body (default)\n\n\n\n\nWidth = column-body-outset\n\n\n\n\nWidth = column-page-inset\n\n\n\n\nWidth = column-page\n\n\n\n\nWidth = column-screen-inset\n\n\n\n\nWidth = column-screen\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "pages/empty.html",
+    "href": "pages/empty.html",
+    "title": "Placeholder",
+    "section": "",
+    "text": "Placeholder page\n\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html",
@@ -28,17 +35,10 @@
     "text": "Nuotoliniai mokymai (anglų kalba)\n\n\n\nIndividų dydžiais paremti ekosistemų modeliai ir jų taikymas vidaus vandenų ir pakrantės ekosistemoms\n\n\nPirmyn\n\n\n\n\n\n\n\n\n\n\nDirbtiniu intelektu paremtas vaizdų surinkimas ir analizė biologiniuose tyrimuose\n\n\nPirmyn\n\n\n\n\n\n\n\n\n\n\nSugavimų pastangai standartizavimas žuvininkystės tyrimuose naudojant R programą\n\n\nPirmyn\n\n\n\n\n\n\n\n\n\n\nBiologinių duomenų paruošimas statistinei analizei\n\n\nPirmyn"
   },
   {
-    "objectID": "figs-vs-images.html",
-    "href": "figs-vs-images.html",
+    "objectID": "theming/figs-vs-images.html",
+    "href": "theming/figs-vs-images.html",
     "title": "Figures vs images",
     "section": "",
     "text": "In flex grid\n\nFigure\nCAN’T USE object-fit: contain option with figure environment, only image.\n\n\n\n\n\nModeliai\n\n\n\n\n\nDuomenys\n\n\n\n\n\nProgramele\n\n\n\n\n\n\n\n\nImage\n\n\n\n\n\nModeliai\n\n\n\n\n\nDuomenys\n\n\n\n\n\nProgramele\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "pages/empty.html",
-    "href": "pages/empty.html",
-    "title": "Placeholder",
-    "section": "",
-    "text": "Placeholder page\n\n\n\n\n Back to top"
   }
 ]

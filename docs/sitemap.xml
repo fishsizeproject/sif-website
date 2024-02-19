@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sif-quarto.drtreimer.com/responsive-widths.html</loc>
-    <lastmod>2024-02-19T12:02:30.160Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sif-quarto.drtreimer.com/index.html</loc>
-    <lastmod>2024-02-19T12:02:28.752Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sif-quarto.drtreimer.com/figs-vs-images.html</loc>
-    <lastmod>2024-02-19T12:02:27.548Z</lastmod>
+    <loc>https://sif-quarto.drtreimer.com/theming/responsive-widths.html</loc>
+    <lastmod>2024-02-19T19:59:48.464Z</lastmod>
   </url>
   <url>
     <loc>https://sif-quarto.drtreimer.com/pages/empty.html</loc>
-    <lastmod>2024-02-19T12:02:29.789Z</lastmod>
+    <lastmod>2024-02-19T19:59:45.387Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sif-quarto.drtreimer.com/index.html</loc>
+    <lastmod>2024-02-19T19:59:42.444Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sif-quarto.drtreimer.com/theming/figs-vs-images.html</loc>
+    <lastmod>2024-02-19T19:59:47.372Z</lastmod>
   </url>
 </urlset>
