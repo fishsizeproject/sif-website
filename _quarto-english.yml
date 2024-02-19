@@ -2,8 +2,6 @@
 project:
   type: website
   output-dir: docs/en
-  preview: 
-    browser: true
 execute: 
   freeze: auto # so R/Python code only runs locally
   
@@ -16,15 +14,6 @@ website:
   site-url: https://sif-quarto.drtreimer.com
   repo-url: https://github.com/stormeyseas/sif-quarto.github.io
   reader-mode: false
-# Sidebar options (see https://quarto.org/docs/reference/projects/websites.html#sidebar)
-  sidebar: 
-    - id: mainsidebar
-      title: " "
-      style: "docked"
-      border: false
-      contents: "auto"
-      background: "light"
-      foreground: light
 
 # Navbar options (see https://quarto.org/docs/reference/projects/websites.html#navbar)
   navbar: 
@@ -34,6 +23,10 @@ website:
     collapse: true
     # List of items for the each section of the navbar (left, right, center)
     right: 
+      - href: ../en
+        icon: /images/gb.svg
+      - href: ../lt
+        icon: /images/lt.svg
       - text: "Pradžia"
         href: index.qmd
       - text: "Puslapiai"
