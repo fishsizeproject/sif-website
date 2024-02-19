@@ -74,4 +74,4 @@ format:
     toc: false
     fig-responsive: true
     include-after-body: 
-      file: footer.html
+      file: /theming/footer.html
