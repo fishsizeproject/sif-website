@@ -1,0 +1,40 @@
+---
+title: "Testing responsiveness"
+format: html
+---
+
+::: {.column-body style="background-color: #666666; border: solid black 1px;"}
+::: {.text-center style="color: #ffffff; margin-top: 1em"}
+Width = column-body (default)
+:::
+:::
+
+::: {.column-body-outset style="background-color: #666666;; border: solid black 1px;"}
+::: {.text-center style="color: #ffffff; margin-top: 1em"}
+Width = column-body-outset
+:::
+:::
+
+::: {.column-page-inset style="background-color: #666666;; border: solid black 1px;"}
+::: {.text-center style="color: #ffffff; margin-top: 1em"}
+Width = column-page-inset
+:::
+:::
+
+::: {.column-page style="background-color: #666666; border: solid black 1px;"}
+::: {.text-center style="color: #ffffff; margin-top: 1em"}
+Width = column-page
+:::
+:::
+
+::: {.column-screen-inset style="background-color: #666666; border: solid black 1px;"}
+::: {.text-center style="color: #ffffff; margin-top: 1em"}
+Width = column-screen-inset
+:::
+:::
+
+::: {.column-screen style="background-color: #666666; border: solid black 1px;"}
+::: {.text-center style="color: #ffffff; margin-top: 1em"}
+Width = column-screen
+:::
+:::
