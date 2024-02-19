@@ -1,5 +1,82 @@
 /* css styles */
 
+/* Text etc */
+
+.new-title, new-title {
+  color: #114087;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 350;
+  font-size: 2.5rem; 
+  padding-top: 1.5em;
+  line-height: 1.2em;
+}
+
+.new-subtitle, new-subtitle {
+  font-family: 'Source Sans Pro';
+  color: #8cb365;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding-top: 1em;
+  line-height: 1.1em;
+}
+
+.h4, .h3, .h2, .h1, h4, h3, h2, h1 {
+  font-family: 'Source Sans Pro';
+  border-bottom: 0px;
+  line-height: 1.2em;
+}
+
+.h1, h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #114087;
+  font-weight: bold;
+  text-align: center;
+}
+
+.h2, h2 {
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  color: #8cb365;
+  font-weight: bold;
+  text-align: center;
+}
+
+.h4, .h3, h4, h3 {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.p, p {
+  font-family: Nunito, sans-serif;
+  font-size: 1rem;
+}
+
+/* Text spacing */
+
+.h4, .h3, h4, h3 {
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.h2, .h1, h2, h1 {
+  padding: 1.25em 0.5em 1em 0.5em;
+}
+
+.p {
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  line-height: 110%;
+}
+
+.p:first-child {
+  padding-top: 1em;
+}
+
+.p:last-child {
+  padding-bottom: 2em;
+}
+
 /* Custom header and footer definitions */
 
 .footer-text {
@@ -19,6 +96,7 @@
   color: #ffffff;
 }
 
+/* 
 .nav-footer {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
@@ -30,7 +108,7 @@
 .nav-footer-center {
   flex-grow: 0;
 }
-
+*/
 
 /* Custom classes for ease of editing */
 

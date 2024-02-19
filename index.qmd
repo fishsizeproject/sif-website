@@ -2,15 +2,18 @@
 format: html
 title-block-style: "none"
 sidebar: false
+title: "Lydekai Paliepus"
 ---
 
 ::: column-screen
 <img src="images/hero.webp" style="width:100%; height: 250px; object-fit: cover; object-position: 25% 25%; margin: 0px"/>
 :::
 
+::: new-title
 # Lydekai Paliepus
+:::
 
-::: {.p .subtitle .lead}
+::: new-subtitle
 Sveikos ekosistemos kintančiame pasaulyje
 :::
 
@@ -22,7 +25,7 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 ![](images/fishers-1.webp){.image .sm-padding}
 
 ::: text-center
-[Zvejams](pages/empty.qmd)
+#### [Zvejams](pages/empty.qmd)
 :::
 :::
 
@@ -30,7 +33,7 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 ![](images/scientists-1.webp){.image .sm-padding}
 
 ::: text-center
-[Valdymui](pages/empty.qmd)
+#### [Valdymui](pages/empty.qmd)
 :::
 :::
 
@@ -38,7 +41,7 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 ![](images/managers-1.webp){.image .sm-padding}
 
 ::: text-center
-[Mokslui](pages/empty.qmd)
+#### [Mokslui](pages/empty.qmd)
 :::
 :::
 
@@ -50,7 +53,7 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 ![](images/models-1.webp){.image .sm-padding}
 
 ::: text-center
-[Modeliai](pages/empty.qmd)
+#### [Modeliai](pages/empty.qmd)
 :::
 :::
 
@@ -58,7 +61,7 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 ![](images/datasets-1.webp){.image .sm-padding}
 
 ::: text-center
-[Duomenys](pages/empty.qmd)
+#### [Duomenys](pages/empty.qmd)
 :::
 :::
 
@@ -66,7 +69,7 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 ![](images/fishsizeproject-1.webp){.image .sm-padding}
 
 ::: text-center
-[Programele](pages/empty.qmd)
+#### [Programele](pages/empty.qmd)
 :::
 :::
 
@@ -93,7 +96,7 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 :::
 
 ::: {.col .mx-1 style="width: 15%;"}
-### Mėgėjiškos žvejybos tyrimai
+#### Mėgėjiškos žvejybos tyrimai
 :::
 
 ::: {.col .mx-1 style="width: 35%;"}
@@ -105,7 +108,7 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 :::
 
 ::: {.col .mx-1 style="width: 15%;"}
-### Kaip teisingai paleisti žuvį pagauk-paleisk žvejyboje?
+#### Kaip teisingai paleisti žuvį pagauk-paleisk žvejyboje?
 :::
 :::
 :::
@@ -132,7 +135,7 @@ Išbandykite mūsų programėlę
 
 ::: {.column-screen style="background-color: #eff4f7;"}
 ::: column-body
-# Nuotoliniai mokymai (anglų kalba)
+## Nuotoliniai mokymai (anglų kalba)
 
 ::: {.d-grid .gap-2 style="box-shadow: 0px 20px 40px rgba(0,0,0,0.1); margin-bottom: 30px; background-color: #ffffff"}
 ::: {.row style="width: 100%; display: flex;"}
