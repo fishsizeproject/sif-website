@@ -17,10 +17,10 @@ title: " "
 # Sustainable Inland Fisheries
 :::
 
-::: {new-subtitle .content-visible when-profile="english"}
+::: {.new-subtitle .content-visible when-profile="english"}
 Healthy ecosystems in a changing world
 :::
-::: {new-subtitle .content-visible when-profile="lithuanian"}
+::: {.new-subtitle .content-visible when-profile="lithuanian"}
 Sveikos ekosistemos kintančiame pasaulyje
 :::
 

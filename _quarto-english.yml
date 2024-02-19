@@ -1,10 +1,7 @@
 # All website project options: https://quarto.org/docs/reference/projects/websites.html
 project:
-  type: website
   output-dir: docs/en
-execute: 
-  freeze: auto # so R/Python code only runs locally
-  
+
 lang: en
 
 website:
@@ -23,10 +20,10 @@ website:
     collapse: true
     # List of items for the each section of the navbar (left, right, center)
     right: 
-      - href: ../en
-        icon: /images/gb.svg
-      - href: ../lt
-        icon: /images/lt.svg
+      - icon: /images/gb.svg
+        href: ../en
+      - icon: /images/lt.svg
+        href: ../lt
       - text: "Pradžia"
         href: index.qmd
       - text: "Puslapiai"

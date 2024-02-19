@@ -1,10 +1,7 @@
 # All website project options: https://quarto.org/docs/reference/projects/websites.html
 project:
-  type: website
   output-dir: docs/lt
-execute: 
-  freeze: auto # so R/Python code only runs locally
-  
+
 lang: lt
 
 website:
@@ -18,11 +15,15 @@ website:
 # Navbar options (see https://quarto.org/docs/reference/projects/websites.html#navbar)
   navbar: 
     title: false
-    logo: images/SIF-LOGO-Lt-1000px.webp
+    logo: /images/SIF-LOGO-Lt-1000px.webp
     pinned: true
     collapse: true
     # List of items for the each section of the navbar (left, right, center)
     right: 
+      - icon: /images/gb.svg
+        href: ../en
+      - icon: /images/lt.svg
+        href: ../lt
       - text: "Pradžia"
         href: index.qmd
       - text: "Puslapiai"
