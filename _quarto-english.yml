@@ -19,7 +19,7 @@ website:
     pinned: true
     collapse: true
     # List of items for the each section of the navbar (left, right, center)
-    center: 
+    right: 
       - text: "Pradžia"
         href: index.qmd
       - text: "Puslapiai"
@@ -43,10 +43,6 @@ website:
         href: pages/empty.qmd
       - text: "Susisiekite"
         href: pages/empty.qmd
-    right:
-      # - text: ![](/images/gb.svg){fig-alt="View in English"}
-      #   href: <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css><button onclick="window.location = location.href.replace('/en/','/lt/');" class="btn"><i class="fa fa-language"></i> Switch to Lithuanian </button>
-      - text: <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css><button onclick="window.location = location.href.replace('/en/','/lt/');" class="btn"><i class="fa fa-language"></i> Switch to Lithuanian </button>
     toggle-position: right # The position of the collapsed navbar toggle in responsive mode
   page-navigation: false # Provide next and previous article links in footer
   back-to-top-navigation: true
@@ -67,3 +63,5 @@ format:
     fig-responsive: true
     include-after-body: 
       file: theming/footer.html
+    include-before-body: 
+      file: change-lang-en.html
