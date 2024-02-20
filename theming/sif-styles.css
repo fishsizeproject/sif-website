@@ -54,7 +54,7 @@
   font-size: 1rem;
 }
 
-/* Text spacing */
+/* Text spacing 
 
 .h4, .h3, h4, h3 {
   padding: 0.5em 0.5em 0.5em 0.5em;
@@ -76,6 +76,7 @@
 .p:last-child {
   padding-bottom: 2em;
 }
+*/
 
 /* Custom header and footer definitions */
 
@@ -117,7 +118,6 @@
   height: 0px;
 }
 
-
 .image {
   width: 100%;
   position: relative;
@@ -134,4 +134,9 @@
 
 .lg-padding {
   padding: 15%;
+}
+
+.flex-row {
+  width: 100%;
+  display: flex;
 }
