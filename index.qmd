@@ -4,134 +4,270 @@ title-block-style: "none"
 sidebar: false
 title: " "
 ---
-<!-- Hero image -->
+
+<!----------------------------------- Banner image ----------------------------------->
+
 ::: column-screen
 <img src="images/hero.webp" style="width: 100%; height: 250px; object-fit: cover; object-position: 25% 25%; margin: 0px;"/>
 :::
 
-<!-- Site title and subtitle -->
-::: {.new-title .content-visible when-profile="english"}
-# Lydekai Paliepus
-:::
-::: {.new-title .content-visible when-profile="lithuanian"}
+<!----------------------------------- Site title and subtitle ----------------------------------->
+
+::: new-title
+::: {.content-visible when-profile="en"}
 # Sustainable Inland Fisheries
 :::
 
-::: {.new-subtitle .content-visible when-profile="english"}
+::: {.content-visible when-profile="lt"}
+# Lydekai Paliepus
+:::
+:::
+
+::: new-subtitle
+::: {.content-visible when-profile="en"}
 Healthy ecosystems in a changing world
 :::
-::: {.new-subtitle .content-visible when-profile="lithuanian"}
+
+::: {.content-visible when-profile="lt"}
 Sveikos ekosistemos kintančiame pasaulyje
 :::
+:::
 
-<!-- start of body content -->
+<!----------------------------------- Body content starts ----------------------------------->
+
+::: {.content-visible when-profile="en"}
+Sustainable Inland Fisheries is a [Nature Research Centre](http://www.gamtostyrimai.lt/en/) scientific project funded by the Lithuanian Research Council. Our mission is to help improve ecosystem health and fisheries management in the inland waters of Lithuania and elsewhere. Inland ecosystems are important for recreation, subsistence fishing, biodiversity and essential ecological services. Our team is developing simple tools for fisheries management and understanding of inland ecosystems now and into the future. We use modern, open science approaches that harnesses the power of citizen science and facilitate effective science communication.
+:::
+
+::: {.content-visible when-profile="lt"}
 Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrimų Centro](http://www.gamtostyrimai.lt/) mokslininkų vykdomas projektas. Mūsų tikslas - prisidėti gerinant ekosistemų būklę ir žuvininkystės valdymą Lietuvos vidaus vandenyse ir pasaulyje. Ežerai, tvenkiniai, upės yra svarbūs tiek gyvajai gamtai, tiek žmonių poilsiui, žvejybai bei ekosistemų paslaugoms. Mes siekiame geriau suprasti žmogaus įtaką vidaus vandenų ekosistemoms, sukurti aiškius ir šiuolaikiškus modelius ir priemones žuvų išteklių valdymui, bei pasitelkti piliečių mokslą žuvų gausumo ir ekosistemos būklės įvertinimui.
+:::
 
-::: {.d-grid .gap-2}
+<!----------------------------------- Grid of sub-pages ----------------------------------->
+
+::: {.d-grid .gap-2 style="text-align: center;"}
+<!-- start row 1 -->
+
 ::: {.row style="width: 100%; display: flex;"}
-::: {.col .mx-1 style="background-color: #65bec2; width: 33.3333%; "}
+<!-- start column 1 -->
+
+::: {.col .mx-1 style="background-color: #65bec2; width: 33.3333%;"}
 ![](images/fishers-1.webp){.image .sm-padding}
 
-::: text-center
+::: {.content-visible when-profile="en"}
+#### [For anglers](pages/empty.qmd)
+:::
+
+::: {.content-visible when-profile="lt"}
 #### [Zvejams](pages/empty.qmd)
 :::
+
+<!-- end column 1 -->
 :::
 
-::: {.col .mx-1 style="background-color: #6799b2; width: 33.3333%"}
+<!-- start column 2 -->
+
+::: {.col .mx-1 style="background-color: #6799b2; width: 33.3333%;"}
 ![](images/scientists-1.webp){.image .sm-padding}
 
-::: text-center
+::: {.content-visible when-profile="en"}
+#### [For anglers](pages/empty.qmd)
+:::
+
+::: {.content-visible when-profile="lt"}
 #### [Valdymui](pages/empty.qmd)
 :::
+
+<!-- end column 2 -->
 :::
 
-::: {.col .mx-1 style="background-color: #8cb365; width: 33.3333%"}
+<!-- start column 3 -->
+
+::: {.col .mx-1 style="background-color: #8cb365; width: 33.3333%;"}
 ![](images/managers-1.webp){.image .sm-padding}
 
-::: text-center
+::: {.content-visible when-profile="en"}
+#### [For anglers](pages/empty.qmd)
+:::
+
+::: {.content-visible when-profile="lt"}
 #### [Mokslui](pages/empty.qmd)
 :::
+
+<!-- end column 3 -->
 :::
 
-<!-- end of row -->
+<!-- end of row 1 -->
 :::
+
+<!-- start row 2 -->
 
 ::: {.row style="width: 100%; display: flex;"}
+<!-- start column 1 -->
+
 ::: {.col .mx-1 style="background-color: #8cb365; width: 33.3333%;"}
 ![](images/models-1.webp){.image .sm-padding}
 
-::: text-center
+::: {.content-visible when-profile="en"}
+#### [For anglers](pages/empty.qmd)
+:::
+
+::: {.content-visible when-profile="lt"}
 #### [Modeliai](pages/empty.qmd)
 :::
+
+<!-- end column 1 -->
 :::
+
+<!-- start column 2 -->
 
 ::: {.col .mx-1 style="background-color: #65beb2; width: 33.3333%;"}
 ![](images/datasets-1.webp){.image .sm-padding}
 
-::: text-center
+::: {.content-visible when-profile="en"}
+#### [For anglers](pages/empty.qmd)
+:::
+
+::: {.content-visible when-profile="lt"}
 #### [Duomenys](pages/empty.qmd)
 :::
+
+<!-- end column 2 -->
 :::
+
+<!-- start column 3 -->
 
 ::: {.col .mx-1 style="background-color: #65beb2; width: 33.3333%;"}
 ![](images/fishsizeproject-1.webp){.image .sm-padding}
 
-::: text-center
+::: {.content-visible when-profile="en"}
+#### [For anglers](pages/empty.qmd)
+:::
+
+::: {.content-visible when-profile="lt"}
 #### [Programele](pages/empty.qmd)
 :::
+
+<!-- end column 3 -->
 :::
 
-<!-- end of row -->
+<!-- end row 2 -->
 :::
 
-<!-- end of grid -->
+<!-- end grid -->
 :::
 
 ::: spacer-2em
  
 :::
 
+<!----------------------------------- Learn more section ----------------------------------->
+
+::: {.content-visible when-profile="en"}
+## Learn more
+:::
+
+::: {.content-visible when-profile="lt"}
 ## Daugiau apie mūsų veiklas
+:::
 
 ::: d-grid
 ::: {.row style="width: 100%; display: flex;"}
-::: {.col .mx-1 style="width: 35%;"}
+<!-- video column -->
+
+::: {.col .mx-1 width="35%"}
 ::: {.ratio .ratio-16x9 width="100%;"}
-<iframe class=".embed-responsive-item" src="https://youtu.be/9k4ruOoDJ7M" title="Mėgėjiškos žvejybos tyrimai" allowfullscreen>
+<iframe class=".embed-responsive-item" src="https://www.youtube.com/embed/9k4ruOoDJ7M" title="Moksliniai tyrimai rekreacinės žvejybos apskaitai" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
 </iframe>
 :::
 :::
 
-::: {.col .mx-1 style="width: 15%;"}
+<!-- text column -->
+
+::: {.col .mx-1 width="15%"}
+::: {.content-visible when-profile="en"}
+#### Assessing recreational fishing effort and catches in Lithuania
+:::
+
+::: {.content-visible when-profile="lt"}
 #### Mėgėjiškos žvejybos tyrimai
 :::
+:::
 
-::: {.col .mx-1 style="width: 35%;"}
-::: {.ratio .ratio-16x9 width="100%;"}
-<iframe class=".embed-responsive-item" src="https://youtu.be/-h3hylyzQKU" title="Kaip teisingai paleisti žuvį pagauk-paleisk žvejyboje?" allowfullscreen>
+<!-- video column -->
+
+::: {.col .mx-1 width="35%"}
+::: {.ratio .ratio-16x9 width="100%"}
+<iframe class=".embed-responsive-item" src="https://www.youtube.com/embed/-h3hylyzQKU" title="Kaip teisingai paleisti žuvį pagauk-paleisk žvejyboje?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
 </iframe>
 :::
 :::
 
-::: {.col .mx-1 style="width: 15%;"}
+<!-- text column -->
+
+::: {.col .mx-1 width="15%"}
+::: {.content-visible when-profile="en"}
+#### Catch-release fishing: How to release caught fish safely
+:::
+
+::: {.content-visible when-profile="lt"}
 #### Kaip teisingai paleisti žuvį pagauk-paleisk žvejyboje?
 :::
 :::
 :::
 
+<!-- Extra row available in English only -->
+
+::: {.content-visible when-profile="en"}
+::: {.row style="width: 100%; display: flex;"}
+<!-- video column -->
+
+::: {.col .mx-1 width="35%"}
+::: {.ratio .ratio-16x9 width="100%"}
+<iframe class=".embed-responsive-item" src="https://www.youtube.com/embed/9SX3TDPQ2FY" title="Assessing recreational effort with fix wing drones: Lithuania" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+:::
+:::
+
+<!-- text column -->
+
+::: {.col .mx-1 width="15%"}
+#### Assessing recreational fishing effort and catches in Lithuania
+
+Available with English subtitles
+:::
+
+<!-- end extra row -->
+:::
+:::
+
+<!-- end grid -->
+:::
+
+<!----------------------------------- Online workshop box ----------------------------------->
+
 ::: {.d-grid style="box-shadow: 0px 20px 40px rgba(0,0,0,0.1); margin-bottom: 30px"}
 ::: {.row style="width: 100%; display: flex;"}
-::: {.col .align-self-center style="width: 50%;"}
-::: text-center
-Išbandykite mūsų programėlę
+::: {.col .align-self-center style="width: 50%; text-align: center"}
+::: {.content-visible when-profile="en"}
+### Online workshop
+:::
 
-<button type="button" class="btn-primary">
+::: {.content-visible when-profile="lt"}
+### Išbandykite mūsų programėlę
+:::
 
-[Pirmyn](pages/empty.qmd)
+::: {.btn .button .btn-primary}
+::: {.content-visible when-profile="en"}
+[Learn more](/pages/empty.qmd)
+:::
 
-</button>
+::: {.content-visible when-profile="lt"}
+[Pirmyn](/pages/empty.qmd)
+:::
 :::
 :::
 
@@ -141,21 +277,45 @@ Išbandykite mūsų programėlę
 :::
 :::
 
+<!----------------------------------- fullscreen background change to grey ----------------------------------->
+
 ::: {.column-screen style="background-color: #eff4f7;"}
+<!----------------------------------- site content stays in body width ----------------------------------->
+
 ::: column-body
+<!----------------------------------- Online courses grid ----------------------------------->
+
+::: {.content-visible when-profile="en"}
+## Online courses
+:::
+
+::: {.content-visible when-profile="lt"}
 ## Nuotoliniai mokymai (anglų kalba)
+:::
 
 ::: {.d-grid .gap-2 style="box-shadow: 0px 20px 40px rgba(0,0,0,0.1); margin-bottom: 30px; background-color: #ffffff"}
+<!-- start row 1 -->
+
 ::: {.row style="width: 100%; display: flex;"}
 ::: {.col .p-3 .align-self-center style="width: 50%;"}
+::: {.content-visible when-profile="en"}
+Size based ecosystem models with the R package mizer and applications for coastal and inland ecosystems
+:::
+
+::: {.content-visible when-profile="lt"}
 Individų dydžiais paremti ekosistemų modeliai ir jų taikymas vidaus vandenų ir pakrantės ekosistemoms
+:::
 
 ::: text-center
-<button type="button" class="btn-primary">
+::: {.btn .button .btn-primary}
+::: {.content-visible when-profile="en"}
+[Learn more](/pages/empty.qmd)
+:::
 
-[Pirmyn](pages/empty.qmd)
-
-</button>
+::: {.content-visible when-profile="lt"}
+[Pirmyn](/pages/empty.qmd)
+:::
+:::
 :::
 :::
 
@@ -163,19 +323,29 @@ Individų dydžiais paremti ekosistemų modeliai ir jų taikymas vidaus vandenų
 ![](images/mizer.webp){.image .sm-padding}
 :::
 
-<!-- end of row -->
+<!-- end row 1 -->
 :::
 
 ::: {.row style="width: 100%; display: flex;"}
 ::: {.col .p-3 .align-self-center style="width: 50%;"}
+::: {.content-visible when-profile="en"}
+Machine learning based image collection, annotation and classification
+:::
+
+::: {.content-visible when-profile="lt"}
 Dirbtiniu intelektu paremtas vaizdų surinkimas ir analizė biologiniuose tyrimuose
+:::
 
 ::: text-center
-<button type="button" class="btn-primary">
+::: {.btn .button .btn-primary}
+::: {.content-visible when-profile="en"}
+[Learn more](/pages/empty.qmd)
+:::
 
-[Pirmyn](pages/empty.qmd)
-
-</button>
+::: {.content-visible when-profile="lt"}
+[Pirmyn](/pages/empty.qmd)
+:::
+:::
 :::
 :::
 
@@ -188,14 +358,24 @@ Dirbtiniu intelektu paremtas vaizdų surinkimas ir analizė biologiniuose tyrimu
 
 ::: {.row style="width: 100%; display: flex;"}
 ::: {.col .p-3 .align-self-center style="width: 50%;"}
+::: {.content-visible when-profile="en"}
+Catch per unit effort data standardisation in R for fisheries biologists and practitioners
+:::
+
+::: {.content-visible when-profile="lt"}
 Sugavimų pastangai standartizavimas žuvininkystės tyrimuose naudojant R programą
+:::
 
 ::: text-center
-<button type="button" class="btn-primary">
+::: {.btn .button .btn-primary}
+::: {.content-visible when-profile="en"}
+[Learn more](/pages/empty.qmd)
+:::
 
-[Pirmyn](pages/empty.qmd)
-
-</button>
+::: {.content-visible when-profile="lt"}
+[Pirmyn](/pages/empty.qmd)
+:::
+:::
 :::
 :::
 
@@ -208,14 +388,24 @@ Sugavimų pastangai standartizavimas žuvininkystės tyrimuose naudojant R progr
 
 ::: {.row style="width: 100%; display: flex;"}
 ::: {.col .p-3 .align-self-center style="width: 50%;"}
+::: {.content-visible when-profile="en"}
+Exploring, cleaning & filtering data prior to analysis
+:::
+
+::: {.content-visible when-profile="lt"}
 Biologinių duomenų paruošimas statistinei analizei
+:::
 
 ::: text-center
-<button type="button" class="btn-primary">
+::: {.btn .button .btn-primary}
+::: {.content-visible when-profile="en"}
+[Learn more](/pages/empty.qmd)
+:::
 
-[Pirmyn](pages/empty.qmd)
-
-</button>
+::: {.content-visible when-profile="lt"}
+[Pirmyn](/pages/empty.qmd)
+:::
+:::
 :::
 :::
 
@@ -235,6 +425,9 @@ Biologinių duomenų paruošimas statistinei analizei
 <!-- end of screen-width container -->
 :::
 
+<!----------------------------------- PDFs section only available in lt ----------------------------------->
+
+::: {.content-visible when-profile="lt"}
 ::: d-grid
 ::: {.row style="width: 100%; display: flex;"}
 ::: {.col style="width: 33.33333%;"}
@@ -283,6 +476,8 @@ Biologinių duomenų paruošimas statistinei analizei
 <!-- end of grid -->
 :::
 
+<!----------------------------------- YT/FB only available in lt ----------------------------------->
+
 ::: d-grid
 ::: {.row style="width: 100%; display: flex;"}
 ::: {.col .align-self-center style="width: 10%;"}
@@ -307,16 +502,31 @@ Biologinių duomenų paruošimas statistinei analizei
 <!-- end of grid -->
 :::
 
-<!--  -->
+<!-- end of lt-only section -->
+:::
+
+<!----------------------------------- Funding section ----------------------------------->
 
 ::: {.d-grid style="background-color: #e2e2e2; box-shadow: 0px 20px 40px rgba(0,0,0,0.1); justify-content: center;"}
 ::: {.row style="width: 100%; display: flex;"}
 ::: {.col .align-self-center style="width: 50%; padding: 40px;"}
+::: {.content-visible when-profile="en"}
+This project is funded by the European Regional Development fund (measure Nr. 01.2.2-LMT-K-718), project "Advanced models, citizen science and big data for sustainable food production and ecological services of inland aquatic ecosystems"
+:::
+
+::: {.content-visible when-profile="lt"}
 Projektas finansuojamas iš Europos regioninės plėtros fondo lėšų pagal priemonės Nr. 01.2.2-LMT-K-718 veiklą ,,Mokslininkų iš užsienio pritraukimas vykdyti mokslinius tyrimus”, projektas „Pažangūs modeliai, piliečių mokslas ir didieji duomenys tvariai vidaus vandenų maisto produkcijai ir ekosistemų paslaugoms“
+:::
 :::
 
 ::: {.col .align-self-center style="width: 50%;"}
-![](images/ESFIVP-I-1.gif){.image .sm-padding}
+::: {.content-visible when-profile="en"}
+![](/images/imaESFIVP-I-2-english.gif){.image .sm-padding}
+:::
+
+::: {.content-visible when-profile="lt"}
+![](/images/ESFIVP-I-1.gif){.image .sm-padding}
+:::
 :::
 
 <!-- end of row -->

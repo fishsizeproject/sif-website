@@ -1,0 +1,95 @@
+---
+title: "Shortcuts"
+format: html
+fig-align: center
+---
+
+# Dual language text
+
+<!-- Optional outside wrapper for extra attributes -->
+
+<!-- ::: text-center  -->
+
+::: {.content-visible when-profile="en"}
+## This is some text
+:::
+
+::: {.content-visible when-profile="lt"}
+## Tai tam tikras tekstas
+:::
+
+<!-- ::: -->
+
+# Buttons
+
+::: {.btn .button .btn-primary}
+[Learn](http://www.google.com)
+:::
+
+## Dual language buttons
+
+::: {.btn .button .btn-primary}
+::: {.content-visible when-profile="en"}
+[Learn more](http://www.google.com)
+:::
+
+::: {.content-visible when-profile="lt"}
+[Pirmyn](http://www.google.com)
+:::
+:::
+
+# Flex grid
+
+::: {.d-grid .gap-2} <!-- start row 1 -->
+
+::: row
+<!-- start column 1 -->
+
+::: {.col .mx-1 style="background-color: #65bec2; width: 33.3333%; text-align: center;"}
+![](images/fishers-1.webp){.image .sm-padding}
+
+::: {.content-visible when-profile="en"}
+#### [For anglers](/pages/empty.qmd)
+:::
+
+::: {.content-visible when-profile="lt"}
+#### [Zvejams](/pages/empty.qmd)
+:::
+
+<!-- end column 1 -->
+:::
+
+<!-- start column 2 -->
+
+::: {.col .mx-1 style="background-color: #6799b2; width: 33.3333%; text-align: center;"}
+![](images/scientists-1.webp){.image .sm-padding}
+
+::: {.content-visible when-profile="en"}
+#### [For anglers](/pages/empty.qmd)
+:::
+
+::: {.content-visible when-profile="lt"}
+#### [Valdymui](/pages/empty.qmd)
+:::
+
+<!-- end column 2 -->
+:::
+
+<!-- start column 3 -->
+
+::: {.col .mx-1 style="background-color: #8cb365; width: 33.3333%; text-align: center;"}
+![](images/managers-1.webp){.image .sm-padding}
+
+::: {.content-visible when-profile="en"}
+#### [For anglers](/pages/empty.qmd)
+:::
+
+::: {.content-visible when-profile="lt"}
+#### [Mokslui](/pages/empty.qmd)
+:::
+
+<!-- end column 3 -->
+:::
+
+<!-- end of row 1 -->
+:::

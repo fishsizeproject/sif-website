@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sustainable Inland Fisheries",
+    "section": "",
+    "text": "Sustainable Inland Fisheries is a Nature Research Centre scientific project funded by the Lithuanian Research Council. Our mission is to help improve ecosystem health and fisheries management in the inland waters of Lithuania and elsewhere. Inland ecosystems are important for recreation, subsistence fishing, biodiversity and essential ecological services. Our team is developing simple tools for fisheries management and understanding of inland ecosystems now and into the future. We use modern, open science approaches that harnesses the power of citizen science and facilitate effective science communication."
+  },
+  {
+    "objectID": "index.html#daugiau-apie-mūsų-veiklas",
+    "href": "index.html#daugiau-apie-mūsų-veiklas",
+    "title": "Sustainable Inland Fisheries",
+    "section": "Daugiau apie mūsų veiklas",
+    "text": "Daugiau apie mūsų veiklas\n\n\n\n\n\n\n\n\n\nMėgėjiškos žvejybos tyrimai\n\n\n\n\n\n\n\n\nKaip teisingai paleisti žuvį pagauk-paleisk žvejyboje?\n\n\n\n\n\n\n\nIšbandykite mūsų programėlę\n\nPirmyn"
+  },
+  {
+    "objectID": "index.html#nuotoliniai-mokymai-anglų-kalba",
+    "href": "index.html#nuotoliniai-mokymai-anglų-kalba",
+    "title": "Sustainable Inland Fisheries",
+    "section": "Nuotoliniai mokymai (anglų kalba)",
+    "text": "Nuotoliniai mokymai (anglų kalba)\n\n\n\nIndividų dydžiais paremti ekosistemų modeliai ir jų taikymas vidaus vandenų ir pakrantės ekosistemoms\n\n\nPirmyn\n\n\n\n\n\n\n\n\n\n\nDirbtiniu intelektu paremtas vaizdų surinkimas ir analizė biologiniuose tyrimuose\n\n\nPirmyn\n\n\n\n\n\n\n\n\n\n\nSugavimų pastangai standartizavimas žuvininkystės tyrimuose naudojant R programą\n\n\nPirmyn\n\n\n\n\n\n\n\n\n\n\nBiologinių duomenų paruošimas statistinei analizei\n\n\nPirmyn"
+  },
+  {
+    "objectID": "theming/responsive-widths.html",
+    "href": "theming/responsive-widths.html",
+    "title": "Testing responsiveness",
+    "section": "",
+    "text": "Width = column-body (default)\n\n\n\n\nWidth = column-body-outset\n\n\n\n\nWidth = column-page-inset\n\n\n\n\nWidth = column-page\n\n\n\n\nWidth = column-screen-inset\n\n\n\n\nWidth = column-screen"
+  },
+  {
+    "objectID": "pages/empty.html",
+    "href": "pages/empty.html",
+    "title": "Placeholder",
+    "section": "",
+    "text": "Placeholder page"
+  },
+  {
+    "objectID": "theming/figs-vs-images.html",
+    "href": "theming/figs-vs-images.html",
+    "title": "Figures vs images",
+    "section": "",
+    "text": "In flex grid\n\nFigure\nCAN’T USE object-fit: contain option with figure environment, only image.\n\n\n\n\n\nModeliai\n\n\n\n\n\nDuomenys\n\n\n\n\n\nProgramele\n\n\n\n\n\n\n\n\nImage\n\n\n\n\n\nModeliai\n\n\n\n\n\nDuomenys\n\n\n\n\n\nProgramele"
+  },
+  {
+    "objectID": "index.html#learn-more",
+    "href": "index.html#learn-more",
+    "title": "Sustainable Inland Fisheries",
+    "section": "Learn more",
+    "text": "Learn more\n\n\n\n\n\n\n\n\n\n\n\nAssessing recreational fishing effort and catches in Lithuania\n\n\n\n\n\n\n\n\n\n\nCatch-release fishing: How to release caught fish safely\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssessing recreational fishing effort and catches in Lithuania\nAvailable with English subtitles\n\n\n\n\n\n\n\n\n\nOnline workshop\n\nLearn more\n\n\n\n\n\n\n\n\n\n\n\n\n\nOnline courses\n\n\n\n\nSize based ecosystem models with the R package mizer and applications for coastal and inland ecosystems\n\n\nLearn more\n\n\n\n\n\n\n\n\n\n\nMachine learning based image collection, annotation and classification\n\n\nLearn more\n\n\n\n\n\n\n\n\n\n\nCatch per unit effort data standardisation in R for fisheries biologists and practitioners\n\n\nLearn more\n\n\n\n\n\n\n\n\n\n\nExploring, cleaning & filtering data prior to analysis\n\n\nLearn more\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis project is funded by the European Regional Development fund (measure Nr. 01.2.2-LMT-K-718), project “Advanced models, citizen science and big data for sustainable food production and ecological services of inland aquatic ecosystems”"
+  },
+  {
+    "objectID": "index.html#online-courses",
+    "href": "index.html#online-courses",
+    "title": "Sustainable Inland Fisheries",
+    "section": "Online courses",
+    "text": "Online courses\n\n\n\n\nSize based ecosystem models with the R package mizer and applications for coastal and inland ecosystems\n\n\nLearn more\n\n\n\n\n\n\n\n\n\n\nMachine learning based image collection, annotation and classification\n\n\nLearn more\n\n\n\n\n\n\n\n\n\n\nCatch per unit effort data standardisation in R for fisheries biologists and practitioners\n\n\nLearn more\n\n\n\n\n\n\n\n\n\n\nExploring, cleaning & filtering data prior to analysis\n\n\nLearn more"
+  },
+  {
+    "objectID": "theming/testing.html",
+    "href": "theming/testing.html",
+    "title": "Shortcuts",
+    "section": "",
+    "text": "Learn more"
+  },
+  {
+    "objectID": "theming/testing.html#buttons-only",
+    "href": "theming/testing.html#buttons-only",
+    "title": "Figures vs images",
+    "section": "",
+    "text": "Learn\nPirmyn"
+  },
+  {
+    "objectID": "theming/testing.html#text-only",
+    "href": "theming/testing.html#text-only",
+    "title": "Figures vs images",
+    "section": "Text only",
+    "text": "Text only"
+  },
+  {
+    "objectID": "theming/testing.html#button",
+    "href": "theming/testing.html#button",
+    "title": "Figures vs images",
+    "section": "",
+    "text": "Learn"
+  },
+  {
+    "objectID": "theming/testing.html#conditional-links",
+    "href": "theming/testing.html#conditional-links",
+    "title": "Figures vs images",
+    "section": "Conditional links",
+    "text": "Conditional links\nLearn"
+  },
+  {
+    "objectID": "theming/testing.html#button-conditional-links",
+    "href": "theming/testing.html#button-conditional-links",
+    "title": "Figures vs images",
+    "section": "Button + conditional links",
+    "text": "Button + conditional links\n\nLearn"
+  },
+  {
+    "objectID": "theming/testing.html#dual-language",
+    "href": "theming/testing.html#dual-language",
+    "title": "Shortcuts",
+    "section": "Dual language",
+    "text": "Dual language\n\nLearn more"
+  },
+  {
+    "objectID": "theming/testing.html#dual-language-buttons",
+    "href": "theming/testing.html#dual-language-buttons",
+    "title": "Shortcuts",
+    "section": "Dual language buttons",
+    "text": "Dual language buttons\n\nLearn more"
+  }
+]
