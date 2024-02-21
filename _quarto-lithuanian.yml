@@ -53,7 +53,7 @@ format:
     theme:
       light: [lightly, theme-light.scss]
       dark: darkly
-    # css: sif-styles.css
+    css: sif-styles.css
     page-layout: full
     grid:
       sidebar-width: 350px
@@ -62,7 +62,11 @@ format:
       gutter-width: 2em
     toc: false
     fig-responsive: true
+    toc: false
+    anchor-sections: false
+    fig-responsive: true
+    link-external-newwindow: true
     include-after-body: 
-      file: theming/footer.html
+      file: /theming/footer-lt.html
     include-before-body: 
       file: change-lang-lt.html

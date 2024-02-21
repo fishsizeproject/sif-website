@@ -6,5 +6,5 @@ execute:
   freeze: auto # so R/Python code only runs locally
 
 profile:
-  default: english
-  group: [english, lithuanian]
+  default: en
+  group: [en, lt]
