@@ -11,7 +11,6 @@ website:
   site-url: https://sif-quarto.drtreimer.com
   repo-url: https://github.com/stormeyseas/sif-quarto.github.io
   reader-mode: false
-  # pre-render: for footer?
   page-navigation: false
 
 # Navbar options (see https://quarto.org/docs/reference/projects/websites.html#navbar)
