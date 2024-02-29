@@ -22,8 +22,6 @@ website:
     pinned: false
     collapse: true
     right: 
-      - text: "{{< iconify flag lt-4x3 height=1.25em >}}"
-        href: javascript:ViewInLithuanian()
       - text: "Pradžia"
         href: index.qmd
       - text: "Puslapiai"
@@ -47,8 +45,8 @@ website:
         href: pages/empty.qmd
       - text: "Susisiekite"
         href: pages/empty.qmd
-      - text: "{{< iconify flag gb-4x3 height=1.25em >}}"
-        href: javascript:ViewInEnglish()
+      - text: "{{< iconify flag lt-4x3 height=1em >}}"
+        href: ../en
 
 format:
   html:

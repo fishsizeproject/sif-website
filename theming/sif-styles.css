@@ -1,63 +1,12 @@
 /* css styles */
 
-/* Text etc */
-
-.gothic-a1-regular {
-  font-family: "Gothic A1", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.new-title, new-title {
-  color: #114087;
-  font-family: 'Gothic A1';
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: bold;
-  font-size: 2.5rem; 
-  padding-top: 1em;
-  line-height: 1.2em;
-}
-
-.new-subtitle, new-subtitle {
-  font-family: 'Source Sans Pro';
-  color: #8cb365;
-  text-align: center;
-  font-weight: 300;
-  font-size: 1.5rem;
-  padding-top: 1em;
-  line-height: 1.1em;
-}
-
-.h4, .h3, .h2, .h1, h4, h3, h2, h1 {
-  font-family: 'Source Sans Pro';
-  border-bottom: 0px;
-  line-height: 1.2em;
-}
-
-.h1, h1 {
-  font-size: 2rem;
-  text-transform: uppercase;
-  color: #114087;
-  font-weight: bold;
-  text-align: center;
-}
-
-.h2, h2 {
-  font-size: 1.75rem;
-  text-transform: uppercase;
-  color: #8cb365;
-  font-weight: bold;
-  text-align: center;
-}
-
-.h4, .h3, h4, h3 {
-  font-size: 1.2rem;
-}
+/* Text etc
 
 .p, p {
-  font-family: Nunito, sans-serif;
-  font-size: 1rem;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
 }
 
 /* Text spacing 
@@ -116,13 +65,6 @@
   flex-grow: 0;
 }
 */
-
-.navbar {
-  font-size: 1em;
-  line-height: 125%;
-  padding-top: 1.5rem;
-  padding-bottom: 1rem;
-}
 
 .navbar-brand-container .mx-auto {
   max-width: 35%;
