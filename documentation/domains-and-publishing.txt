@@ -1,0 +1,26 @@
+Requirements for publishing with gh-pages under a custom domain:
+
+Repository settings: 	
+	1. Under Pages -> Build and deployment, set Source = Deploy from a branch and branch = gh-pages -> root/ (must exist)
+		Note: 	The process for first-time publishing detailed on the quarto help pages is wrong - using quarto publish gh-pages will throw a permissions error. 
+				Instead, manually create the gh-pages branch with git checkout -b and then render the site with quarto render.
+	2. Set Custom domain to the desired domain or subdomain name and check the Enforce HTTPS box.
+	3. Repo name must be in the format <name>.github.io
+			
+DNS settings: 	
+	1. Add the 4 "A" records pointing to github (values: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#dns-records-for-your-custom-domain)
+	2. Add a CNAME record pointing to the correct repo name (<name>.github.io)
+	
+Project files:
+	1. In the main branch root directory add a CNAME record with the correct domain/subdomain.
+	2. Within the project yaml file, add:
+		website:
+			site-url: https://<domain/subdomain> 
+			repo-url: https://github.com/<account>/<name>.github.io
+		
+Process for automatic live publishing on push to main:
+
+Repository settings: 	
+	1. Under Actions -> General -> Actions permissions, set to "Allow all actions and reusable workflows"
+
+The publishing process is already set up. The action is detailed in the file ./github/workflows/publish.yml and should not need to be changed.

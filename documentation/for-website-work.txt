@@ -1,0 +1,12 @@
+These quarto extensions are required for the website to work so you will need to install them prior to making changes:
+	quarto-ext/fontawesome
+	jmgirard/embedpdf
+	mcanouil/quarto-iconify
+Install them via the 'quarto add' terminal command
+
+Prior to publishing changes which include R code you might need to generate a new lockfile so your packages will work correctly via:
+	renv::snapshot()
+
+Does shortcode work?
+{{< video https://www.youtube.com/embed/wo9vZccmqwc >}}
+
