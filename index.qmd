@@ -12,7 +12,7 @@ title-block-style: "none"
 
 <!----------------------------------- Site title and subtitle ----------------------------------->
 
-::: {.new-title style="font-size: 54px"}
+::: {.new-title style="font-size: 4.5em;"}
 ::: {.content-visible when-profile="en"}
 # Sustainable Inland Fisheries
 :::
@@ -44,21 +44,21 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 
 <!----------------------------------- Grid of sub-pages ----------------------------------->
 
-::: {.d-grid .gap-2 style="text-align: center;"}
+::: {.d-grid .gap-2}
 <!-- start row 1 -->
 
-::: {.row style="width: 100%; display: flex;"}
+::: {.row style="width: 100%; display: flex; padding-bottom: 2%;"}
 <!-- start column 1 -->
 
-::: {.col .mx-1 style="background-color: #65bec2; width: 33.3333%;"}
+::: {.col .mx-1 style="background-color: #65bec2; width: 33.3333%; text-align: center;"}
 ![](images/fishers-1.webp){.image .sm-padding}
 
 ::: {.content-visible when-profile="en"}
-#### [For anglers](pages/empty.qmd)
+#### [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-#### [Zvejams](pages/empty.qmd)
+#### [Zvejams](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 <!-- end column 1 -->
@@ -66,15 +66,15 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 
 <!-- start column 2 -->
 
-::: {.col .mx-1 style="background-color: #6799b2; width: 33.3333%;"}
+::: {.col .mx-1 style="background-color: #6799b2; width: 33.3333%;  text-align: center;"}
 ![](images/scientists-1.webp){.image .sm-padding}
 
 ::: {.content-visible when-profile="en"}
-#### [For anglers](pages/empty.qmd)
+#### [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-#### [Valdymui](pages/empty.qmd)
+#### [Valdymui](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 <!-- end column 2 -->
@@ -82,15 +82,15 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 
 <!-- start column 3 -->
 
-::: {.col .mx-1 style="background-color: #8cb365; width: 33.3333%;"}
+::: {.col .mx-1 style="background-color: #8cb365; width: 33.3333%;  text-align: center;"}
 ![](images/managers-1.webp){.image .sm-padding}
 
 ::: {.content-visible when-profile="en"}
-#### [For anglers](pages/empty.qmd)
+#### [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-#### [Mokslui](pages/empty.qmd)
+#### [Mokslui](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 <!-- end column 3 -->
@@ -101,18 +101,18 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 
 <!-- start row 2 -->
 
-::: {.row style="width: 100%; display: flex;"}
+::: {.row style="width: 100%; display: flex; padding-bottom: 2%;"}
 <!-- start column 1 -->
 
-::: {.col .mx-1 style="background-color: #8cb365; width: 33.3333%;"}
+::: {.col .mx-1 style="background-color: #8cb365; width: 33.3333%;  text-align: center;"}
 ![](images/models-1.webp){.image .sm-padding}
 
 ::: {.content-visible when-profile="en"}
-#### [For anglers](pages/empty.qmd)
+#### [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-#### [Modeliai](pages/empty.qmd)
+#### [Modeliai](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 <!-- end column 1 -->
@@ -120,15 +120,15 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 
 <!-- start column 2 -->
 
-::: {.col .mx-1 style="background-color: #65beb2; width: 33.3333%;"}
+::: {.col .mx-1 style="background-color: #65beb2; width: 33.3333%; text-align: center;"}
 ![](images/datasets-1.webp){.image .sm-padding}
 
 ::: {.content-visible when-profile="en"}
-#### [For anglers](pages/empty.qmd)
+#### [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-#### [Duomenys](pages/empty.qmd)
+#### [Duomenys](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 <!-- end column 2 -->
@@ -136,15 +136,15 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 
 <!-- start column 3 -->
 
-::: {.col .mx-1 style="background-color: #65beb2; width: 33.3333%;"}
+::: {.col .mx-1 style="background-color: #65beb2; width: 33.3333%; text-align: center;"}
 ![](images/fishsizeproject-1.webp){.image .sm-padding}
 
 ::: {.content-visible when-profile="en"}
-#### [For anglers](pages/empty.qmd)
+#### [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-#### [Programele](pages/empty.qmd)
+#### [Programele](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 <!-- end column 3 -->
@@ -261,11 +261,11 @@ Available with English subtitles
 
 ::: {.btn .button .btn-primary}
 ::: {.content-visible when-profile="en"}
-[Learn more](/pages/empty.qmd)
+[Learn more](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 
-::: {.content-visible when-profile="lt"}
-[Pirmyn](/pages/empty.qmd)
+::: {.p .content-visible when-profile="lt"}
+[Pirmyn](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 :::
 :::
@@ -308,11 +308,11 @@ Individų dydžiais paremti ekosistemų modeliai ir jų taikymas vidaus vandenų
 ::: text-center
 ::: {.btn .button .btn-primary}
 ::: {.content-visible when-profile="en"}
-[Learn more](/pages/empty.qmd)
+[Learn more](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-[Pirmyn](/pages/empty.qmd)
+[Pirmyn](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 :::
 :::
@@ -338,11 +338,11 @@ Dirbtiniu intelektu paremtas vaizdų surinkimas ir analizė biologiniuose tyrimu
 ::: text-center
 ::: {.btn .button .btn-primary}
 ::: {.content-visible when-profile="en"}
-[Learn more](/pages/empty.qmd)
+[Learn more](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-[Pirmyn](/pages/empty.qmd)
+[Pirmyn](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 :::
 :::
@@ -368,11 +368,11 @@ Sugavimų pastangai standartizavimas žuvininkystės tyrimuose naudojant R progr
 ::: text-center
 ::: {.btn .button .btn-primary}
 ::: {.content-visible when-profile="en"}
-[Learn more](/pages/empty.qmd)
+[Learn more](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-[Pirmyn](/pages/empty.qmd)
+[Pirmyn](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 :::
 :::
@@ -398,11 +398,11 @@ Biologinių duomenų paruošimas statistinei analizei
 ::: text-center
 ::: {.btn .button .btn-primary}
 ::: {.content-visible when-profile="en"}
-[Learn more](/pages/empty.qmd)
+[Learn more](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-[Pirmyn](/pages/empty.qmd)
+[Pirmyn](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 :::
 :::

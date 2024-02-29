@@ -2,13 +2,20 @@
 
 /* Text etc */
 
+.gothic-a1-regular {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .new-title, new-title {
   color: #114087;
+  font-family: 'Gothic A1';
   text-transform: uppercase;
   text-align: center;
-  font-weight: 350;
+  font-weight: bold;
   font-size: 2.5rem; 
-  padding-top: 1.5em;
+  padding-top: 1em;
   line-height: 1.2em;
 }
 
@@ -45,7 +52,6 @@
 }
 
 .h4, .h3, h4, h3 {
-  text-align: left;
   font-size: 1.2rem;
 }
 
@@ -112,19 +118,28 @@
 */
 
 .navbar {
-  font-size: 1.25em;
-  letter-spacing: 120%;
+  font-size: 1em;
   line-height: 125%;
-  padding-top: 2.5rem;
+  padding-top: 1.5rem;
   padding-bottom: 1rem;
 }
 
+.navbar-brand-container .mx-auto {
+  max-width: 35%;
+  margin-left: 2.5%;
+}
+
 .navbar-brand {
-  width: 2em;
+  width: 5em;
+  overflow: visible;
+}
+
+.navbar-logo {
+  max-height: 5em;
 }
 
 .navbar-brand > img {
-  height: 5rem;
+  height: 100%;
 }
 
 /* Custom classes for ease of editing */

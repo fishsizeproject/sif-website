@@ -20,6 +20,7 @@ $dark-theme: true !default;
 */
 
 $primary:       #114087;
+$button:        #65bec2;
 $secondary:     #8cb365;
 $accent1:       #5d3006;
 $accent2:       #01034c;
@@ -32,7 +33,7 @@ $code-color:    $accent2;         // The text color of inline code. Defaults to 
 $h1-color:      $primary;
 $h2-color:      $secondary;
 $h3-color:      $primary;
-$h4-color:      $secondary;
+$h4-color:      $primary;
 
 $font-size-root: 1em;             // The base font size for the page.
 $toc-font-size:  0.6em;           // The font size for the page TOC.
@@ -96,6 +97,8 @@ $sidebar-hl:                        $dark-grey;// The highlight color for links 
 
 /*-- scss:rules --*/
 
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;600;700&display=swap");
+
 hr {
   border: none;
   height: 3px;
@@ -106,3 +109,143 @@ hr {
 .navbar {
   font-weight: $headings-font-weight;
 }
+
+.btn {
+  &-primary {
+    background-color: $button;
+    border-color: shade-color($button, 10%);
+    padding-bottom: 5px;
+  }
+
+  &-default {
+    border-color: shade-color($secondary, 10%);
+  }
+
+  &-secondary {
+    border-color: shade-color($secondary, 10%);
+  }
+
+  &-success {
+    border-color: shade-color($success, 10%);
+  }
+
+  &-info {
+    color: $white;
+    border-color: shade-color($info, 10%);
+  }
+
+  &-danger {
+    border-color: shade-color($danger, 10%);
+  }
+
+  &-warning {
+    color: $white;
+    border-color: shade-color($warning, 10%);
+  }
+
+  &-light {
+    border-color: shade-color($light, 10%);
+  }
+
+  &-dark {
+    border-color: shade-color($dark, 10%);
+  }
+}
+
+.btn-outline-secondary {
+  color: var(--bs-primary-color);
+}
+
+.btn-group {
+  .dropdown-menu {
+    border-top-width: 0;
+  }
+
+  .dropdown-toggle {
+    &.btn-primary ~ .dropdown-menu {
+      background-color: $primary;
+      border-color: shade-color($primary, 10%);
+
+      .dropdown-item {
+        color: $white;
+      }
+
+      .dropdown-item:hover,
+      .dropdown-item:focus {
+        background-color: shade-color($primary, 16%);
+      }
+    }
+
+    &.btn-secondary ~ .dropdown-menu {
+      background-color: $secondary;
+      border-color: shade-color($secondary, 10%);
+
+      .dropdown-item {
+        color: $body-color;
+      }
+
+      .dropdown-item:hover,
+      .dropdown-item:focus {
+        background-color: shade-color($secondary, 16%);
+      }
+    }
+
+    &.btn-success ~ .dropdown-menu {
+      background-color: $success;
+      border-color: shade-color($success, 10%);
+
+      .dropdown-item {
+        color: $white;
+      }
+
+      .dropdown-item:hover,
+      .dropdown-item:focus {
+        background-color: shade-color($success, 16%);
+      }
+    }
+
+    &.btn-info ~ .dropdown-menu {
+      background-color: $info;
+      border-color: shade-color($info, 10%);
+
+      .dropdown-item {
+        color: $white;
+      }
+
+      .dropdown-item:hover,
+      .dropdown-item:focus {
+        background-color: shade-color($info, 16%);
+      }
+    }
+
+    &.btn-warning ~ .dropdown-menu {
+      background-color: $warning;
+      border-color: shade-color($warning, 10%);
+
+      .dropdown-item {
+        color: $white;
+      }
+
+      .dropdown-item:hover,
+      .dropdown-item:focus {
+        background-color: shade-color($warning, 16%);
+      }
+    }
+
+    &.btn-danger ~ .dropdown-menu {
+      background-color: $danger;
+      border-color: shade-color($danger, 10%);
+
+      .dropdown-item {
+        color: $white;
+      }
+
+      .dropdown-item:hover,
+      .dropdown-item:focus {
+        background-color: shade-color($danger, 16%);
+      }
+    }
+  }
+}
+
+

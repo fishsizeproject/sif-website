@@ -1,6 +1,6 @@
 # All website project options: https://quarto.org/docs/reference/projects/websites.html
 project:
-  title: "Sustainable Inland Fisheries"
+  title: "Sustainable Inland Fisheries | Healthy ecosystems in a changing world"
   output-dir: ./docs/en
 
 lang: en
@@ -13,13 +13,13 @@ website:
   # repo-url: https://github.com/stormeyseas/sif-quarto.github.io
   # reader-mode: false
   # page-navigation: false
-  # back-to-top-navigation: true
+  back-to-top-navigation: true
   navbar: 
     background: light
     foreground: dark
     title: false
     logo: images/SIF-logo-540x330.gif
-    pinned: true
+    pinned: false
     collapse: true
     right:
       - text: "{{< iconify flag lt-4x3 height=1.25em >}}"
