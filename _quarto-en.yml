@@ -64,5 +64,5 @@ format:
     anchor-sections: false
     fig-responsive: true
     link-external-newwindow: true
-    # include-after-body: 
-    #   file: /theming/footer-lt.html
+    include-after-body:
+      file: theming/footer-lt.html
