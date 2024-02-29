@@ -1,27 +1,27 @@
 # All website project options: https://quarto.org/docs/reference/projects/websites.html
 project:
-  output-dir: docs/en
+  title: "Sustainable Inland Fisheries | Healthy ecosystems in a changing world"
+  output-dir: ./docs/en
 
 lang: en
 
 website:
-  title: "Lydekai Paliepus"
-  description: "Sveikos ekosistemos kintančiame pasaulyje"
-  favicon: images/SIF-LOGO-Lt-1000px.webp
+  title: "Sustainable Inland Fisheries"
+  description: "Healthy ecosystems in a changing world"
+  favicon: images/SIF-logo-540x330.gif
   site-url: https://sif-quarto.drtreimer.com
-  repo-url: https://github.com/stormeyseas/sif-quarto.github.io
-  reader-mode: false
-  # pre-render: for footer?
-  page-navigation: false
-
-# Navbar options (see https://quarto.org/docs/reference/projects/websites.html#navbar)
+  # repo-url: https://github.com/stormeyseas/sif-quarto.github.io
+  # reader-mode: false
+  # page-navigation: false
+  back-to-top-navigation: true
   navbar: 
+    background: light
+    foreground: dark
     title: false
-    logo: /images/SIF-logo-540x330.gif
-    pinned: true
+    logo: images/SIF-logo-540x330.gif
+    pinned: false
     collapse: true
-    # List of items for the each section of the navbar (left, right, center)
-    right: 
+    right:
       - text: "Home"
         href: index.qmd
       - text: "Pages"
@@ -45,16 +45,13 @@ website:
         href: pages/empty.qmd
       - text: "Contact"
         href: pages/empty.qmd
-    toggle-position: right # The position of the collapsed navbar toggle in responsive mode
-  page-navigation: false # Provide next and previous article links in footer
-  back-to-top-navigation: true
+      - text: "{{< iconify flag lt-4x3 height=1em >}}"
+        href: ../lt
 
 format:
   html:
-    theme:
-      light: [lightly, theme-light.scss]
-      dark: darkly
-    css: sif-styles.css
+    theme: [lightly, theming/special-theming.scss]
+    css: theming/sif-styles.css
     page-layout: full
     grid:
       sidebar-width: 350px
@@ -62,12 +59,8 @@ format:
       margin-width: 150px
       gutter-width: 2em
     toc: false
-    fig-responsive: true
-    toc: false
     anchor-sections: false
     fig-responsive: true
     link-external-newwindow: true
-    include-after-body: 
-      file: /theming/footer-en.html
-    include-before-body: 
-      file: change-lang-en.html
+    include-after-body:
+      file: theming/footer-en.html

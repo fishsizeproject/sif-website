@@ -1,25 +1,24 @@
 ---
 format: html
-title-block-style: "none"
 sidebar: false
-title: " "
+title-block-style: "none"
 ---
 
-<!----------------------------------- Banner image ----------------------------------->
+<!-- Banner image -->
 
 ::: column-screen
 <img src="images/hero.webp" style="width: 100%; height: 250px; object-fit: cover; object-position: 25% 25%; margin: 0px;"/>
 :::
 
-<!----------------------------------- Site title and subtitle ----------------------------------->
+<!-- Site title and subtitle -->
 
 ::: new-title
 ::: {.content-visible when-profile="en"}
-# Sustainable Inland Fisheries
+Sustainable Inland Fisheries
 :::
 
 ::: {.content-visible when-profile="lt"}
-# Lydekai Paliepus
+Lydekai Paliepus
 :::
 :::
 
@@ -33,7 +32,7 @@ Sveikos ekosistemos kintančiame pasaulyje
 :::
 :::
 
-<!----------------------------------- Body content starts ----------------------------------->
+<!-- Body content starts -->
 
 ::: {.content-visible when-profile="en"}
 Sustainable Inland Fisheries is a [Nature Research Centre](http://www.gamtostyrimai.lt/en/) scientific project funded by the Lithuanian Research Council. Our mission is to help improve ecosystem health and fisheries management in the inland waters of Lithuania and elsewhere. Inland ecosystems are important for recreation, subsistence fishing, biodiversity and essential ecological services. Our team is developing simple tools for fisheries management and understanding of inland ecosystems now and into the future. We use modern, open science approaches that harnesses the power of citizen science and facilitate effective science communication.
@@ -43,56 +42,92 @@ Sustainable Inland Fisheries is a [Nature Research Centre](http://www.gamtostyri
 Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrimų Centro](http://www.gamtostyrimai.lt/) mokslininkų vykdomas projektas. Mūsų tikslas - prisidėti gerinant ekosistemų būklę ir žuvininkystės valdymą Lietuvos vidaus vandenyse ir pasaulyje. Ežerai, tvenkiniai, upės yra svarbūs tiek gyvajai gamtai, tiek žmonių poilsiui, žvejybai bei ekosistemų paslaugoms. Mes siekiame geriau suprasti žmogaus įtaką vidaus vandenų ekosistemoms, sukurti aiškius ir šiuolaikiškus modelius ir priemones žuvų išteklių valdymui, bei pasitelkti piliečių mokslą žuvų gausumo ir ekosistemos būklės įvertinimui.
 :::
 
-<!----------------------------------- Grid of sub-pages ----------------------------------->
-
-::: {.d-grid .gap-2 style="text-align: center;"}
-<!-- start row 1 -->
-
-::: {.row style="width: 100%; display: flex;"}
-<!-- start column 1 -->
-
-::: {.col .mx-1 style="background-color: #65bec2; width: 33.3333%;"}
-![](images/fishers-1.webp){.image .sm-padding}
+<!-- Grid of sub-pages -->
 
 ::: {.content-visible when-profile="en"}
-#### [For anglers](pages/empty.qmd)
+# Explore
 :::
 
 ::: {.content-visible when-profile="lt"}
-#### [Zvejams](pages/empty.qmd)
+# Tyrinėti
 :::
+
+
+::: {.column-screen style="bg-color: var(-bs-gray-300);"}
+::: column-body
+
+::: grid
+
+::: g-col-4
+![](images/fishers-1.webp){.image .sm-padding}
+
+::: {.content-visible when-profile="en"}
+## [For anglers](pages/empty.qmd)
+<!-- {style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"} -->
+:::
+
+::: {.content-visible when-profile="lt"}
+## [Zvejams](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
+:::
+
+:::
+
+::: g-col-4
+![](images/scientists-1.webp){.image .sm-padding}
+
+::: {.content-visible when-profile="en"}
+## [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
+:::
+
+::: {.content-visible when-profile="lt"}
+## [Valdymui](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
+:::
+
+:::
+
+::: g-col-4
+![](images/managers-1.webp){.image .sm-padding}
+
+::: {.content-visible when-profile="en"}
+## [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
+:::
+
+::: {.content-visible when-profile="lt"}
+## [Mokslui](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
+:::
+
+:::
+
+:::
+
+<!-- back to default background colour -->
+:::
+:::
+
+::: {.d-grid .gap-2}
+<!-- start row 1 -->
+
+::: {.row style="width: 100%; display: flex; padding-bottom: 2%;"}
+<!-- start column 1 -->
+
+::: {.col .mx-1 style="background-color: #65bec2; width: 33.3333%; text-align: center;"}
+
 
 <!-- end column 1 -->
 :::
 
 <!-- start column 2 -->
 
-::: {.col .mx-1 style="background-color: #6799b2; width: 33.3333%;"}
-![](images/scientists-1.webp){.image .sm-padding}
+::: {.col .mx-1 style="background-color: #6799b2; width: 33.3333%;  text-align: center;"}
 
-::: {.content-visible when-profile="en"}
-#### [For anglers](pages/empty.qmd)
-:::
-
-::: {.content-visible when-profile="lt"}
-#### [Valdymui](pages/empty.qmd)
-:::
 
 <!-- end column 2 -->
 :::
 
 <!-- start column 3 -->
 
-::: {.col .mx-1 style="background-color: #8cb365; width: 33.3333%;"}
-![](images/managers-1.webp){.image .sm-padding}
+::: {.col .mx-1 style="background-color: #8cb365; width: 33.3333%;  text-align: center;"}
 
-::: {.content-visible when-profile="en"}
-#### [For anglers](pages/empty.qmd)
-:::
-
-::: {.content-visible when-profile="lt"}
-#### [Mokslui](pages/empty.qmd)
-:::
 
 <!-- end column 3 -->
 :::
@@ -102,18 +137,18 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 
 <!-- start row 2 -->
 
-::: {.row style="width: 100%; display: flex;"}
+::: {.row style="width: 100%; display: flex; padding-bottom: 2%;"}
 <!-- start column 1 -->
 
-::: {.col .mx-1 style="background-color: #8cb365; width: 33.3333%;"}
+::: {.col .mx-1 style="background-color: #8cb365; width: 33.3333%;  text-align: center;"}
 ![](images/models-1.webp){.image .sm-padding}
 
 ::: {.content-visible when-profile="en"}
-#### [For anglers](pages/empty.qmd)
+#### [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-#### [Modeliai](pages/empty.qmd)
+#### [Modeliai](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 <!-- end column 1 -->
@@ -121,15 +156,15 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 
 <!-- start column 2 -->
 
-::: {.col .mx-1 style="background-color: #65beb2; width: 33.3333%;"}
+::: {.col .mx-1 style="background-color: #65beb2; width: 33.3333%; text-align: center;"}
 ![](images/datasets-1.webp){.image .sm-padding}
 
 ::: {.content-visible when-profile="en"}
-#### [For anglers](pages/empty.qmd)
+#### [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-#### [Duomenys](pages/empty.qmd)
+#### [Duomenys](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 <!-- end column 2 -->
@@ -137,15 +172,15 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 
 <!-- start column 3 -->
 
-::: {.col .mx-1 style="background-color: #65beb2; width: 33.3333%;"}
+::: {.col .mx-1 style="background-color: #65beb2; width: 33.3333%; text-align: center;"}
 ![](images/fishsizeproject-1.webp){.image .sm-padding}
 
 ::: {.content-visible when-profile="en"}
-#### [For anglers](pages/empty.qmd)
+#### [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-#### [Programele](pages/empty.qmd)
+#### [Programele](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 <!-- end column 3 -->
@@ -164,11 +199,11 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 <!----------------------------------- Learn more section ----------------------------------->
 
 ::: {.content-visible when-profile="en"}
-## Learn more
+# Learn more
 :::
 
 ::: {.content-visible when-profile="lt"}
-## Daugiau apie mūsų veiklas
+# Daugiau apie mūsų veiklas
 :::
 
 ::: d-grid
@@ -262,11 +297,11 @@ Available with English subtitles
 
 ::: {.btn .button .btn-primary}
 ::: {.content-visible when-profile="en"}
-[Learn more](/pages/empty.qmd)
+[Learn more](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 
-::: {.content-visible when-profile="lt"}
-[Pirmyn](/pages/empty.qmd)
+::: {.p .content-visible when-profile="lt"}
+[Pirmyn](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 :::
 :::
@@ -309,11 +344,11 @@ Individų dydžiais paremti ekosistemų modeliai ir jų taikymas vidaus vandenų
 ::: text-center
 ::: {.btn .button .btn-primary}
 ::: {.content-visible when-profile="en"}
-[Learn more](/pages/empty.qmd)
+[Learn more](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-[Pirmyn](/pages/empty.qmd)
+[Pirmyn](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 :::
 :::
@@ -339,11 +374,11 @@ Dirbtiniu intelektu paremtas vaizdų surinkimas ir analizė biologiniuose tyrimu
 ::: text-center
 ::: {.btn .button .btn-primary}
 ::: {.content-visible when-profile="en"}
-[Learn more](/pages/empty.qmd)
+[Learn more](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-[Pirmyn](/pages/empty.qmd)
+[Pirmyn](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 :::
 :::
@@ -369,11 +404,11 @@ Sugavimų pastangai standartizavimas žuvininkystės tyrimuose naudojant R progr
 ::: text-center
 ::: {.btn .button .btn-primary}
 ::: {.content-visible when-profile="en"}
-[Learn more](/pages/empty.qmd)
+[Learn more](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-[Pirmyn](/pages/empty.qmd)
+[Pirmyn](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 :::
 :::
@@ -399,11 +434,11 @@ Biologinių duomenų paruošimas statistinei analizei
 ::: text-center
 ::: {.btn .button .btn-primary}
 ::: {.content-visible when-profile="en"}
-[Learn more](/pages/empty.qmd)
+[Learn more](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-[Pirmyn](/pages/empty.qmd)
+[Pirmyn](/pages/empty.qmd){style="text-decoration: none; color: white;"}
 :::
 :::
 :::
@@ -507,8 +542,9 @@ Biologinių duomenų paruošimas statistinei analizei
 
 <!----------------------------------- Funding section ----------------------------------->
 
-::: {.d-grid style="background-color: #e2e2e2; box-shadow: 0px 20px 40px rgba(0,0,0,0.1); justify-content: center;"}
-::: {.row style="width: 100%; display: flex;"}
+::: {style="background-color: #e2e2e2; box-shadow: 0px 20px 40px rgba(0,0,0,0.1);"}
+::: {.d-grid style="justify-content: center;"}
+::: {.row style="width: 100%; display: flex; margin-top: 2em;"}
 ::: {.col .align-self-center style="width: 50%; padding: 40px;"}
 ::: {.content-visible when-profile="en"}
 This project is funded by the European Regional Development fund (measure Nr. 01.2.2-LMT-K-718), project "Advanced models, citizen science and big data for sustainable food production and ecological services of inland aquatic ecosystems"
@@ -521,7 +557,7 @@ Projektas finansuojamas iš Europos regioninės plėtros fondo lėšų pagal pri
 
 ::: {.col .align-self-center style="width: 50%;"}
 ::: {.content-visible when-profile="en"}
-![](/images/imaESFIVP-I-2-english.gif){.image .sm-padding}
+![](/images/ESFIVP-I-2-english.gif){.image .sm-padding width="90%"}
 :::
 
 ::: {.content-visible when-profile="lt"}
@@ -533,4 +569,5 @@ Projektas finansuojamas iš Europos regioninės plėtros fondo lėšų pagal pri
 :::
 
 <!-- end of grid -->
+:::
 :::

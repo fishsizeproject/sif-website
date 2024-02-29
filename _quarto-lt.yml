@@ -1,24 +1,26 @@
 # All website project options: https://quarto.org/docs/reference/projects/websites.html
 project:
-  output-dir: docs/lt
+  title: "Lydekai Paliepus | Sveikos ekosistemos kintančiame pasaulyje"
+  output-dir: ./docs/lt
 
 lang: lt
 
 website:
   title: "Lydekai Paliepus"
   description: "Sveikos ekosistemos kintančiame pasaulyje"
-  favicon: images/SIF-LOGO-Lt-1000px.webp
+  favicon: images/SIF-LOGO-Lt.png
   site-url: https://sif-quarto.drtreimer.com
-  repo-url: https://github.com/stormeyseas/sif-quarto.github.io
-  reader-mode: false
-
-# Navbar options (see https://quarto.org/docs/reference/projects/websites.html#navbar)
+  # repo-url: https://github.com/stormeyseas/sif-quarto.github.io
+  # reader-mode: false
+  # page-navigation: false # Provide next and previous article links in footer
+  back-to-top-navigation: true
   navbar: 
+    background: light
+    foreground: dark
     title: false
-    logo: /images/SIF-LOGO-Lt-1000px.webp
-    pinned: true
+    logo: images/SIF-LOGO-Lt.png
+    pinned: false
     collapse: true
-    # List of items for the each section of the navbar (left, right, center)
     right: 
       - text: "Pradžia"
         href: index.qmd
@@ -43,17 +45,13 @@ website:
         href: pages/empty.qmd
       - text: "Susisiekite"
         href: pages/empty.qmd
-      
-    toggle-position: right # The position of the collapsed navbar toggle in responsive mode
-  page-navigation: false # Provide next and previous article links in footer
-  back-to-top-navigation: true
+      - text: "{{< iconify flag lt-4x3 height=1em >}}"
+        href: ../en
 
 format:
   html:
-    theme:
-      light: [lightly, theme-light.scss]
-      dark: darkly
-    css: sif-styles.css
+    theme: [lightly, theming/special-theming.scss]
+    css: theming/sif-styles.css
     page-layout: full
     grid:
       sidebar-width: 350px
@@ -61,12 +59,8 @@ format:
       margin-width: 150px
       gutter-width: 2em
     toc: false
-    fig-responsive: true
-    toc: false
     anchor-sections: false
     fig-responsive: true
     link-external-newwindow: true
-    include-after-body: 
-      file: /theming/footer-lt.html
-    include-before-body: 
-      file: change-lang-lt.html
+    include-after-body:
+      file: theming/footer-lt.html
