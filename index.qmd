@@ -1,8 +1,7 @@
 ---
 format: html
-title-block-style: "none"
 sidebar: false
-title: " "
+title-block-style: "none"
 ---
 
 <!----------------------------------- Banner image ----------------------------------->
@@ -13,7 +12,7 @@ title: " "
 
 <!----------------------------------- Site title and subtitle ----------------------------------->
 
-::: new-title
+::: {.new-title style="font-size: 54px"}
 ::: {.content-visible when-profile="en"}
 # Sustainable Inland Fisheries
 :::
@@ -507,8 +506,9 @@ Biologinių duomenų paruošimas statistinei analizei
 
 <!----------------------------------- Funding section ----------------------------------->
 
-::: {.d-grid style="background-color: #e2e2e2; box-shadow: 0px 20px 40px rgba(0,0,0,0.1); justify-content: center;"}
-::: {.row style="width: 100%; display: flex;"}
+::: {style="background-color: #e2e2e2; box-shadow: 0px 20px 40px rgba(0,0,0,0.1);"}
+::: {.d-grid style="justify-content: center;"}
+::: {.row style="width: 100%; display: flex; margin-top: 2em;"}
 ::: {.col .align-self-center style="width: 50%; padding: 40px;"}
 ::: {.content-visible when-profile="en"}
 This project is funded by the European Regional Development fund (measure Nr. 01.2.2-LMT-K-718), project "Advanced models, citizen science and big data for sustainable food production and ecological services of inland aquatic ecosystems"
@@ -521,7 +521,7 @@ Projektas finansuojamas iš Europos regioninės plėtros fondo lėšų pagal pri
 
 ::: {.col .align-self-center style="width: 50%;"}
 ::: {.content-visible when-profile="en"}
-![](/images/imaESFIVP-I-2-english.gif){.image .sm-padding}
+![](/images/ESFIVP-I-2-english.gif){.image .sm-padding width="90%"}
 :::
 
 ::: {.content-visible when-profile="lt"}
@@ -533,4 +533,5 @@ Projektas finansuojamas iš Europos regioninės plėtros fondo lėšų pagal pri
 :::
 
 <!-- end of grid -->
+:::
 :::
