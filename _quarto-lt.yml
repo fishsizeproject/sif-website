@@ -8,7 +8,7 @@ lang: lt
 website:
   title: "Lydekai Paliepus"
   description: "Sveikos ekosistemos kintančiame pasaulyje"
-  favicon: ./images/SIF-LOGO-Lt.png
+  favicon: images/SIF-LOGO-Lt.png
   site-url: https://sif-quarto.drtreimer.com
   # repo-url: https://github.com/stormeyseas/sif-quarto.github.io
   # reader-mode: false
@@ -18,7 +18,7 @@ website:
     background: light
     foreground: dark
     title: false
-    logo: ./images/SIF-LOGO-Lt.png
+    logo: images/SIF-LOGO-Lt.png
     pinned: true
     collapse: true
     right: 
@@ -52,10 +52,8 @@ website:
 
 format:
   html:
-    theme:
-      light: [lightly, ./theming/special-theming.scss]
-      dark: darkly
-    css: ./theming/sif-styles.css
+    theme: [lightly, theming/special-theming.scss]
+    css: theming/sif-styles.css
     page-layout: full
     grid:
       sidebar-width: 350px

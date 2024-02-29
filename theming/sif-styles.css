@@ -111,6 +111,22 @@
 }
 */
 
+.navbar {
+  font-size: 1.25em;
+  letter-spacing: 120%;
+  line-height: 125%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar-brand {
+  width: 2em;
+}
+
+.navbar-brand > img {
+  width: 100%;
+}
+
 /* Custom classes for ease of editing */
 
 .spacer-2em {
