@@ -1,0 +1,6 @@
+Some metadata for the whole site in _quarto.yml, where the profiles en and lt are defined. 
+Each profile has its own .yml file which contains most of the site metadata. Much of the information is duplicated - this is required, do not change it.
+
+The index.qmd acts as homepage in both profiles, with different content being hidden/visible depending on which profile is currently being displayed.
+
+TBC...
