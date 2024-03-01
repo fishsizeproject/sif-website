@@ -3,6 +3,8 @@ title: " "
 format: html
 ---
 
+<!-- This file is not directly referenced within the website and should not render automatically. Its purpose is to provide an easy way to generate the html files which form the footers of the site. -->
+
 <!--- fullscreen background change --->
 ::::::: {.column-screen style="background-color: #8cb365;"}
 
