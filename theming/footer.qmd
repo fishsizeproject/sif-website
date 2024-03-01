@@ -1,63 +1,70 @@
+---
+title: " "
+format: html
+---
 
 <!--- fullscreen background change --->
-
 ::::::: {.column-screen style="background-color: #8cb365;"}
 
-:::::: {.d-grid style="box-shadow: 0px 20px 40px rgba(0,0,0,0.1); margin-bottom: 30px"}
+<!-- frame for footer content -->
+:::::: {.grid style="padding: 40px 5% 40px 5%;"}
 
-::::: {.row style="width: 100%; display: flex; padding: 2.5% 5% 2.5% 5%;"}
-
-:::: {.col .align-self-center style="width: 50%; text-align: left"}
+<!-- begin column 1 -->
+:::: {.g-col-6 .align-items-center style="text-align: left; color: white;"}
 
 ::: {.content-visible when-profile="en"}
-### title
+### Sustainable Inland Fisheries
 
-address
+Nature Research Centre <br>
+Akademijos st. 2, LT-08412, Vilnius, Lithuania
 
-address
-
-link
+[www.gamtostyrimai.lt](http://www.gamtostyrimai.lt){.footer-link target="_blank"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-### title-lt
+### Lydekai paliepus
 
-address-lt
+Gamtos tyrimų centras <br>
+Akademijos g. 2, LT-08412, Vilnius
 
-address-lt
-
-link-lt
+[www.gamtostyrimai.lt](http://www.gamtostyrimai.lt){.footer-link target="_blank"}
 :::
 
 <!-- end column -->
 ::::
 
-:::: {.col .align-self-center style="width: 50%; text-align: right"}
+<!-- begin column 2 -->
+:::: {.g-col-6 .align-self-center style="text-align: right; color: white"}
 
 ::: {.content-visible when-profile="en"}
-link
+[ABOUT](http://sif.lt/){.footer-link target="_self"}
 
-link
+[TEAM](http://sif.lt/team/){.footer-link target="_self"}
 
-link
+[CONTACT](http://sif.lt/contacts/){.footer-link target="_self"}
+
+[PRIVACY POLICY](http://sif.lt/contacts/){.footer-link target="_self"}
+
+[Website by Phillip England: lydekaipaliepus@gamtc.lt](mailto:lydekaipaliepus@gamtc.lt){.footer-link target="_self" style="font-size: 0.5em;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-link-lt
+[APIE MUS](http://sif.lt/){.footer-link target="_self"}
 
-link-lt
+[GRUPE](http://sif.lt/team/){.footer-link target="_self"}
 
-link-lt
+[SUSISIEKITE](http://sif.lt/contacts/){.footer-link target="_self"}
+
+[PRIVACY POLICY](http://sif.lt/contacts/){.footer-link target="_self"}
+
+[Tinklapį sukūrė Phillip England: lydekaipaliepus@gamtc.lt](mailto:lydekaipaliepus@gamtc.lt){.footer-link target="_self" style="font-size: 0.5em;"}
 :::
 
 <!-- end column -->
 ::::
 
-<!-- end row -->
-:::::
-
-<!-- end flex grid -->
+<!-- end footer content grid -->
 ::::::
 
-<!-- end footer -->
+<!-- end footer background -->
 :::::::
