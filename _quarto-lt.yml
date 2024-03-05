@@ -1,7 +1,7 @@
 # All website project options: https://quarto.org/docs/reference/projects/websites.html
 project:
   title: "Lydekai Paliepus | Sveikos ekosistemos kintančiame pasaulyje"
-  output-dir: ./docs/lt
+  output-dir: ./_site/lt
 
 lang: lt
 

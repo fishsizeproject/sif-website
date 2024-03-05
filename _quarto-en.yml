@@ -1,7 +1,7 @@
 # All website project options: https://quarto.org/docs/reference/projects/websites.html
 project:
   title: "Sustainable Inland Fisheries | Healthy ecosystems in a changing world"
-  output-dir: ./docs/en
+  output-dir: ./_site/en
 
 lang: en
 
