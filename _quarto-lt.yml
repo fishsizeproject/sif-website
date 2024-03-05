@@ -1,7 +1,6 @@
 # All website project options: https://quarto.org/docs/reference/projects/websites.html
 project:
   title: "Lydekai Paliepus | Sveikos ekosistemos kintančiame pasaulyje"
-  output-dir: ./_site/lt
 
 lang: lt
 
@@ -9,7 +8,7 @@ website:
   title: "Lydekai Paliepus"
   description: "Sveikos ekosistemos kintančiame pasaulyje"
   favicon: images/SIF-LOGO-Lt.png
-  site-path: /lt
+  # site-path: /lt
   # site-url: https://sif-quarto.drtreimer.com
   # repo-url: https://github.com/stormeyseas/sif-quarto.github.io
   # reader-mode: false
