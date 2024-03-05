@@ -206,21 +206,20 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 # Daugiau apie mūsų veiklas
 :::
 
-::: d-grid
-::: {.row style="width: 100%; display: flex;"}
-<!-- video column -->
+::::: grid
+<!-- ::: {.row style="width: 100%; display: flex;"} -->
 
-::: {.col .mx-1 width="35%"}
+<!-- video column -->
+:::: g-col-4
 ::: {.ratio .ratio-16x9 width="100%;"}
 <iframe class=".embed-responsive-item" src="https://www.youtube.com/embed/9k4ruOoDJ7M" title="Moksliniai tyrimai rekreacinės žvejybos apskaitai" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
 </iframe>
 :::
-:::
+::::
 
 <!-- text column -->
-
-::: {.col .mx-1 width="15%"}
+:::: g-col-2
 ::: {.content-visible when-profile="en"}
 #### Assessing recreational fishing effort and catches in Lithuania
 :::
@@ -228,21 +227,19 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 ::: {.content-visible when-profile="lt"}
 #### Mėgėjiškos žvejybos tyrimai
 :::
-:::
+::::
 
 <!-- video column -->
-
-::: {.col .mx-1 width="35%"}
+:::: g-col-4
 ::: {.ratio .ratio-16x9 width="100%"}
 <iframe class=".embed-responsive-item" src="https://www.youtube.com/embed/-h3hylyzQKU" title="Kaip teisingai paleisti žuvį pagauk-paleisk žvejyboje?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
 </iframe>
 :::
-:::
+::::
 
 <!-- text column -->
-
-::: {.col .mx-1 width="15%"}
+:::: g-col-2
 ::: {.content-visible when-profile="en"}
 #### Catch-release fishing: How to release caught fish safely
 :::
@@ -250,37 +247,33 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 ::: {.content-visible when-profile="lt"}
 #### Kaip teisingai paleisti žuvį pagauk-paleisk žvejyboje?
 :::
-:::
-:::
+::::
+:::::
 
 <!-- Extra row available in English only -->
 
-::: {.content-visible when-profile="en"}
-::: {.row style="width: 100%; display: flex;"}
-<!-- video column -->
+:::::: {.content-visible when-profile="en"}
+::::: grid
 
-::: {.col .mx-1 width="35%"}
+<!-- video column -->
+:::: g-col-4
 ::: {.ratio .ratio-16x9 width="100%"}
 <iframe class=".embed-responsive-item" src="https://www.youtube.com/embed/9SX3TDPQ2FY" title="Assessing recreational effort with fix wing drones: Lithuania" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
 </iframe>
 :::
-:::
+::::
 
 <!-- text column -->
-
-::: {.col .mx-1 width="15%"}
+:::: g-col-2
 #### Assessing recreational fishing effort and catches in Lithuania
 
 Available with English subtitles
-:::
+::::
 
 <!-- end extra row -->
-:::
-:::
-
-<!-- end grid -->
-:::
+:::::
+::::::
 
 <!----------------------------------- Online workshop box ----------------------------------->
 
