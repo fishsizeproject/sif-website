@@ -9,7 +9,8 @@ website:
   title: "Sustainable Inland Fisheries"
   description: "Healthy ecosystems in a changing world"
   favicon: images/SIF-logo-540x330.gif
-  site-url: https://sif-quarto.drtreimer.com
+  site-path: /en
+  # site-url: https://sif-quarto.drtreimer.com
   # repo-url: https://github.com/stormeyseas/sif-quarto.github.io
   # reader-mode: false
   # page-navigation: false
@@ -46,7 +47,7 @@ website:
       - text: "Contact"
         href: pages/empty.qmd
       - text: "{{< iconify flag lt-4x3 height=1em >}}"
-        href: ../lt
+        href: ./lt
 
 format:
   html:

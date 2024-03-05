@@ -9,7 +9,8 @@ website:
   title: "Lydekai Paliepus"
   description: "Sveikos ekosistemos kintančiame pasaulyje"
   favicon: images/SIF-LOGO-Lt.png
-  site-url: https://sif-quarto.drtreimer.com
+  site-path: /lt
+  # site-url: https://sif-quarto.drtreimer.com
   # repo-url: https://github.com/stormeyseas/sif-quarto.github.io
   # reader-mode: false
   # page-navigation: false # Provide next and previous article links in footer
@@ -45,8 +46,8 @@ website:
         href: pages/empty.qmd
       - text: "Susisiekite"
         href: pages/empty.qmd
-      - text: "{{< iconify flag lt-4x3 height=1em >}}"
-        href: ../en
+      - text: "{{< iconify flag gb-4x3 height=1em >}}"
+        href: ./en
 
 format:
   html:

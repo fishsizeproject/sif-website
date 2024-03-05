@@ -2,6 +2,9 @@
 project:
   type: website
 
+website:
+  site-url: https://sif-quarto.drtreimer.com
+
 profile:
   default: lt
   group: [en, lt]
