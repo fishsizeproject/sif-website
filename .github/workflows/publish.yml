@@ -52,52 +52,10 @@ jobs:
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           renv::restore()
 
-      # Custom action to render both profiles - testing in progress
-      #- name: 'Render both profiles'
-      #  env:
-      #    QUARTO_PRINT_STACK: true
-      #  run: |
-      #    if [ "${{ inputs.to }}" == "" ]; then
-      #      quarto render --profile lt ${{ inputs.path }}
-      #      quarto render --profile en ${{ inputs.path }}
-      #    else
-      #      quarto render --profile lt ${{ inputs.path }} --to ${{ inputs.to }}
-      #      quarto render --profile en ${{ inputs.path }} --to ${{ inputs.to }}
-      #    fi
-      #    if [ -f "_book" ]; then
-      #      echo "QUARTO_OUTPUT=_book" >> $GITHUB_ENV
-      #    elif [ -f "_site" ]; then
-      #      echo "QUARTO_OUTPUT=_site" >> $GITHUB_ENV
-      #    fi
-      #  shell: bash
-
-      - name: 'Publish'
-        shell: bash
+      # NOTE: If Publishing to GitHub Pages, set the permissions correctly (see top of this yaml)
+      - name: Publish to GitHub Pages (and render)
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
-          QUARTO_PRINT_STACK: true
-          CONNECT_SERVER: ${{ inputs.CONNECT_SERVER }}
-          CONNECT_API_KEY: ${{ inputs.CONNECT_API_KEY }}
-          NETLIFY_AUTH_TOKEN: ${{ inputs.NETLIFY_AUTH_TOKEN }}
-          QUARTO_PUB_AUTH_TOKEN: ${{ inputs.QUARTO_PUB_AUTH_TOKEN }}
-        run: |
-          quarto publish gh-pages/en --profile en --no-browser
-          quarto publish gh-pages/lt --profile lt --no-browser
-        # git config --global user.email "${{ inputs.GITHUB_EMAIL }}"
-        # git config --global user.name "${{ inputs.GITHUB_USERNAME }}"
-        #TARGET="${{ inputs.to }}"
-        #if [ "$TARGET" == "" ]; then
-        #  TARGET="${{ inputs.target }}"
-        #fi
-        #if [ "${{ inputs.render }}" != "true" ]; then
-        #  quarto publish $TARGET ${{ inputs.path }} --no-render --no-browser
-        #else
-        #  quarto publish $TARGET ${{ inputs.path }} --no-browser
-        #fi
-      # NOTE: If Publishing to GitHub Pages, set the permissions correctly (see top of this yaml)
-      #- name: Publish to GitHub Pages
-      #  uses: quarto-dev/quarto-actions/publish@v2
-      #  with:
-      #    target: gh-pages
-      #  env:
-      #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
