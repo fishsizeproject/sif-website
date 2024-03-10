@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "theming/footer-generator.html",
+    "href": "theming/footer-generator.html",
+    "title": "Sustainable Inland Fisheries",
+    "section": "",
+    "text": "Sustainable Inland Fisheries\nNature Research Centre  Akademijos st. 2, LT-08412, Vilnius, Lithuania\nwww.gamtostyrimai.lt\n\n\n\n\nABOUT\nTEAM\nCONTACT\nPRIVACY POLICY\nWebsite by Phillip England: lydekaipaliepus@gamtc.lt\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "pages/empty.html",
+    "href": "pages/empty.html",
+    "title": "Placeholder",
+    "section": "",
+    "text": "Placeholder page\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Explore",
+    "section": "",
+    "text": "Sustainable Inland Fisheries\n\n\nHealthy ecosystems in a changing world\n\n\nSustainable Inland Fisheries is a Nature Research Centre scientific project funded by the Lithuanian Research Council. Our mission is to help improve ecosystem health and fisheries management in the inland waters of Lithuania and elsewhere. Inland ecosystems are important for recreation, subsistence fishing, biodiversity and essential ecological services. Our team is developing simple tools for fisheries management and understanding of inland ecosystems now and into the future. We use modern, open science approaches that harnesses the power of citizen science and facilitate effective science communication.\n\n\nExplore\n\n\n\n\n\n\n\n\n\n\nFor anglers\n\n\n\n\n\n\nFor anglers\n\n\n\n\n\nFor anglers\n\n\n\n\n\n\n\n\nFor anglers\n\n\n\n\n\nFor anglers\n\n\n\n\n\nFor anglers\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nLearn more\n\n\n\n\n\n\n\n\n\nAssessing recreational fishing effort and catches in Lithuania\n\n\n\n\n\n\n\n\n\n\n\nCatch-release fishing: How to release caught fish safely\n\n\n\n\n\n\n\n\n\n\n\n\nAssessing recreational fishing effort and catches in Lithuania\nAvailable with English subtitles\n\n\n\n\n\n\n \n\n\n\n \n\n\n\n\nOnline workshop\n\nLearn more\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n \n\n\nOnline courses\n\n\n\n\nSize based ecosystem models with the R package mizer and applications for coastal and inland ecosystems\n\nLearn more\n\n\n\n\n\n\n\n\n\nMachine learning based image collection, annotation and classification\n\nLearn more\n\n\n\n\n\n\n\n\n\nCatch per unit effort data standardisation in R for fisheries biologists and practitioners\n\nLearn more\n\n\n\n\n\n\n\n\n\nExploring, cleaning & filtering data prior to analysis\n\nLearn more\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n \n\n\n\n\n\nThis project is funded by the European Regional Development fund (measure Nr. 01.2.2-LMT-K-718), project “Advanced models, citizen science and big data for sustainable food production and ecological services of inland aquatic ecosystems”\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "pages/testing-page.html",
+    "href": "pages/testing-page.html",
+    "title": "Page for testing things",
+    "section": "",
+    "text": "These are the different page width presets that content (including nested columns) can be situated within.\n\n\nWidth = column-body (default)\n\n\n\n\nWidth = column-body-outset\n\n\n\n\nWidth = column-page-inset\n\n\n\n\nWidth = column-page\n\n\n\n\nWidth = column-screen-inset\n\n\n\n\nWidth = column-screen"
+  },
+  {
+    "objectID": "pages/testing-page.html#column-width",
+    "href": "pages/testing-page.html#column-width",
+    "title": "Page for testing things",
+    "section": "",
+    "text": "These are the different page width presets that content (including nested columns) can be situated within.\n\n\nWidth = column-body (default)\n\n\n\n\nWidth = column-body-outset\n\n\n\n\nWidth = column-page-inset\n\n\n\n\nWidth = column-page\n\n\n\n\nWidth = column-screen-inset\n\n\n\n\nWidth = column-screen"
+  }
+]

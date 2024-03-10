@@ -1,7 +1,7 @@
 # All website project options: https://quarto.org/docs/reference/projects/websites.html
 project:
   title: "Lydekai Paliepus | Sveikos ekosistemos kintančiame pasaulyje"
-  output-dir: ./_site/lt/
+  output-dir: docs
 
 lang: lt
 
@@ -9,11 +9,9 @@ website:
   title: "Lydekai Paliepus"
   description: "Sveikos ekosistemos kintančiame pasaulyje"
   favicon: images/SIF-LOGO-Lt.png
-  # site-path: /lt
   # site-url: https://sif-quarto.drtreimer.com
   # repo-url: https://github.com/stormeyseas/sif-quarto.github.io
-  # reader-mode: false
-  # page-navigation: false # Provide next and previous article links in footer
+  page-navigation: false # Provide next and previous article links in footer
   back-to-top-navigation: true
   navbar: 
     background: light
@@ -47,7 +45,7 @@ website:
       - text: "Susisiekite"
         href: pages/empty.qmd
       - text: "{{< iconify flag gb-4x3 height=1em >}}"
-        href: ./en
+        href: en/
 
 format:
   html:
