@@ -1,0 +1,119 @@
+/* css styles */
+
+/* Text etc
+
+.p, p {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+/* Text spacing 
+
+.h4, .h3, h4, h3 {
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.h2, .h1, h2, h1 {
+  padding: 1.25em 0.5em 1em 0.5em;
+}
+
+.p {
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  line-height: 110%;
+}
+
+.p:first-child {
+  padding-top: 1em;
+}
+
+.p:last-child {
+  padding-bottom: 2em;
+}
+*/
+
+/* Custom header and footer definitions */
+
+.footer-text {
+  color: #ffffff; 
+}
+
+.footer-link, .sitemap-link {
+  text-decoration: none;
+  color: rgba(255,255,255,0.5);
+}
+
+.sitemap-link {
+  text-transform: uppercase;
+}
+
+.footer-link:hover, .sitemap-link:hover {
+  color: #ffffff;
+}
+
+/* 
+.nav-footer {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  border: 0px;
+  background-color: #8cb365;
+  color: #f8f9fa;
+}
+
+.nav-footer-center {
+  flex-grow: 0;
+}
+*/
+
+.navbar-brand-container .mx-auto {
+  max-width: 35%;
+  margin-left: 2.5%;
+}
+
+.navbar-brand {
+  width: 5em;
+  overflow: visible;
+}
+
+.navbar-logo {
+  max-height: 5em;
+}
+
+.navbar-brand > img {
+  height: 100%;
+}
+
+/* Custom classes for ease of editing */
+
+.spacer-2em {
+  margin: 2em;
+  height: 0px;
+}
+
+.image {
+  width: 100%;
+  position: relative;
+  margin-bottom: -0.75em; /* Compensates for the p wrapper quarto puts on everything */
+}
+
+.sm-padding {
+  padding: 5%;
+}
+
+.md-padding {
+  padding: 10%;
+}
+
+.lg-padding {
+  padding: 15%;
+}
+
+.row {
+  width: 100%;
+  display: flex; /* This should be default, not sure why it isn't working */
+}
+
+.col, .col-4 {
+  flex: 1 1 0px; /* Allows different-sized images to distribute evenly in flex columns */
+}

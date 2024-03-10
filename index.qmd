@@ -52,96 +52,57 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 # Tyrinėti
 :::
 
+<!-- ::: spacer-1rem -->
+<!--   -->
+<!-- ::: -->
 
-::: {.column-screen style="bg-color: var(-bs-gray-300);"}
-::: column-body
+::::::: {.column-screen .grey-background}
+::::::: column-body
 
-::: grid
-
-::: g-col-4
-![](images/fishers-1.webp){.image .sm-padding}
+:::::: {.container .gap-2}
+::::: {.flex-row style="padding-bottom: 2%; text-align: center;"}
+:::: col
+![](images/fishers-1.webp){.image}
 
 ::: {.content-visible when-profile="en"}
-## [For anglers](pages/empty.qmd)
+### [For anglers](pages/empty.qmd)
 <!-- {style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"} -->
 :::
 
 ::: {.content-visible when-profile="lt"}
-## [Zvejams](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
+### [Zvejams](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
+::::
 
-:::
-
-::: g-col-4
-![](images/scientists-1.webp){.image .sm-padding}
+:::: col
+![](images/scientists-1.webp){.image}
 
 ::: {.content-visible when-profile="en"}
-## [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
+### [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-## [Valdymui](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
+### [Valdymui](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
+::::
 
-:::
-
-::: g-col-4
-![](images/managers-1.webp){.image .sm-padding}
+:::: col
+![](images/managers-1.webp){.image}
 
 ::: {.content-visible when-profile="en"}
-## [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
+### [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
 
 ::: {.content-visible when-profile="lt"}
-## [Mokslui](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
+### [Mokslui](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
-
-:::
-
-:::
-
-<!-- back to default background colour -->
-:::
-:::
-
-::: {.d-grid .gap-2}
-<!-- start row 1 -->
-
-::: {.row style="width: 100%; display: flex; padding-bottom: 2%;"}
-<!-- start column 1 -->
-
-::: {.col .mx-1 style="background-color: #65bec2; width: 33.3333%; text-align: center;"}
-
-
-<!-- end column 1 -->
-:::
-
-<!-- start column 2 -->
-
-::: {.col .mx-1 style="background-color: #6799b2; width: 33.3333%;  text-align: center;"}
-
-
-<!-- end column 2 -->
-:::
-
-<!-- start column 3 -->
-
-::: {.col .mx-1 style="background-color: #8cb365; width: 33.3333%;  text-align: center;"}
-
-
-<!-- end column 3 -->
-:::
-
-<!-- end of row 1 -->
-:::
+::::
+:::::
 
 <!-- start row 2 -->
-
-::: {.row style="width: 100%; display: flex; padding-bottom: 2%;"}
-<!-- start column 1 -->
-
-::: {.col .mx-1 style="background-color: #8cb365; width: 33.3333%;  text-align: center;"}
-![](images/models-1.webp){.image .sm-padding}
+::::: {.flex-row style="padding-bottom: 2%; text-align: center;"}
+:::: col
+![](images/models-1.webp){.image}
 
 ::: {.content-visible when-profile="en"}
 #### [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
@@ -150,14 +111,10 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 ::: {.content-visible when-profile="lt"}
 #### [Modeliai](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
+:::: 
 
-<!-- end column 1 -->
-:::
-
-<!-- start column 2 -->
-
-::: {.col .mx-1 style="background-color: #65beb2; width: 33.3333%; text-align: center;"}
-![](images/datasets-1.webp){.image .sm-padding}
+:::: col
+![](images/datasets-1.webp){.image}
 
 ::: {.content-visible when-profile="en"}
 #### [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
@@ -166,14 +123,10 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 ::: {.content-visible when-profile="lt"}
 #### [Duomenys](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
+::::
 
-<!-- end column 2 -->
-:::
-
-<!-- start column 3 -->
-
-::: {.col .mx-1 style="background-color: #65beb2; width: 33.3333%; text-align: center;"}
-![](images/fishsizeproject-1.webp){.image .sm-padding}
+:::: col
+![](images/fishsizeproject-1.webp){.image}
 
 ::: {.content-visible when-profile="en"}
 #### [For anglers](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
@@ -182,17 +135,17 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 ::: {.content-visible when-profile="lt"}
 #### [Programele](pages/empty.qmd){style="color: var(--bs-primary); text-transform: uppercase; font-weight: bold; text-decoration: none;"}
 :::
-
-<!-- end column 3 -->
-:::
-
+::::
 <!-- end row 2 -->
-:::
-
+:::::
 <!-- end grid -->
-:::
+::::::
 
-::: spacer-2em
+<!-- back to default background colour -->
+:::::::
+:::::::
+
+::: spacer-2rem
  
 :::
 
@@ -206,80 +159,78 @@ Lydekai paliepus – yra Lietuvos mokslų tarybos finansuojamas ir [Gamtos Tyrim
 # Daugiau apie mūsų veiklas
 :::
 
-::::: grid
-<!-- ::: {.row style="width: 100%; display: flex;"} -->
-
-<!-- video column -->
-:::: g-col-4
-::: {.ratio .ratio-16x9 width="100%;"}
-<iframe class=".embed-responsive-item" src="https://www.youtube.com/embed/9k4ruOoDJ7M" title="Moksliniai tyrimai rekreacinės žvejybos apskaitai" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-
-</iframe>
+:::::: container
+::::: {.flex-row .align-items-center .justify-content-evenly .py-2}
+:::: {.col-4 .px-2}
+::: {.ratio .ratio-16x9}
+<iframe src="https://www.youtube.com/embed/9k4ruOoDJ7M" title="Moksliniai tyrimai rekreacinės žvejybos apskaitai" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 :::
 ::::
 
-<!-- text column -->
-:::: g-col-2
+:::: {.col-4 .px-2 style="text-align: center;"}
 ::: {.content-visible when-profile="en"}
-#### Assessing recreational fishing effort and catches in Lithuania
+### Assessing recreational fishing effort and catches in Lithuania
 :::
 
 ::: {.content-visible when-profile="lt"}
-#### Mėgėjiškos žvejybos tyrimai
+### Mėgėjiškos žvejybos tyrimai
+:::
+::::
+<!-- end row -->
+:::::
+
+::::: {.flex-row .align-items-center .justify-content-evenly .py-2}
+:::: {.col-4 .px-2}
+::: {.ratio .ratio-16x9}
+<iframe src="https://www.youtube.com/embed/-h3hylyzQKU" title="Kaip teisingai paleisti žuvį pagauk-paleisk žvejyboje?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 :::
 ::::
 
-<!-- video column -->
-:::: g-col-4
-::: {.ratio .ratio-16x9 width="100%"}
-<iframe class=".embed-responsive-item" src="https://www.youtube.com/embed/-h3hylyzQKU" title="Kaip teisingai paleisti žuvį pagauk-paleisk žvejyboje?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-
-</iframe>
-:::
-::::
-
-<!-- text column -->
-:::: g-col-2
+:::: {.col-4 .px-2 style="text-align: center;"}
 ::: {.content-visible when-profile="en"}
-#### Catch-release fishing: How to release caught fish safely
+### Catch-release fishing: How to release caught fish safely
 :::
 
 ::: {.content-visible when-profile="lt"}
-#### Kaip teisingai paleisti žuvį pagauk-paleisk žvejyboje?
+### Kaip teisingai paleisti žuvį pagauk-paleisk žvejyboje?
 :::
 ::::
+<!-- end row -->
 :::::
 
 <!-- Extra row available in English only -->
-
 :::::: {.content-visible when-profile="en"}
-::::: grid
-
-<!-- video column -->
-:::: g-col-4
-::: {.ratio .ratio-16x9 width="100%"}
-<iframe class=".embed-responsive-item" src="https://www.youtube.com/embed/9SX3TDPQ2FY" title="Assessing recreational effort with fix wing drones: Lithuania" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-
-</iframe>
+::::: {.flex-row .align-items-center .justify-content-evenly .py-2}
+:::: {.col-4 .px-2}
+::: {.ratio .ratio-16x9}
+<iframe src="https://www.youtube.com/embed/9SX3TDPQ2FY" title="Assessing recreational effort with fix wing drones: Lithuania" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 :::
 ::::
 
-<!-- text column -->
-:::: g-col-2
-#### Assessing recreational fishing effort and catches in Lithuania
+:::: {.col-4 .px-2 style="text-align: center;"}
+### Assessing recreational fishing effort and catches in Lithuania
 
 Available with English subtitles
 ::::
-
-<!-- end extra row -->
+<!-- end English-only row -->
 :::::
 ::::::
 
-<!----------------------------------- Online workshop box ----------------------------------->
+<!-- end whole container -->
+::::::
 
-::: {.d-grid style="box-shadow: 0px 20px 40px rgba(0,0,0,0.1); margin-bottom: 30px"}
-::: {.row style="width: 100%; display: flex;"}
-::: {.col .align-self-center style="width: 50%; text-align: center"}
+::: spacer-2rem
+ 
+:::
+
+<!----------------------------------- Online workshop box ----------------------------------->
+::: spacer-2rem
+ 
+:::
+
+::: {.container .shadow-box-white}
+::::: {.flex-row .align-items-center .justify-content-evenly .py-2}
+:::: {.col-6 .px-2 style="text-align: center;"}
 ::: {.content-visible when-profile="en"}
 ### Online workshop
 :::
@@ -289,73 +240,78 @@ Available with English subtitles
 :::
 
 ::: {.btn .button .btn-primary}
-::: {.content-visible when-profile="en"}
-[Learn more](/pages/empty.qmd){style="text-decoration: none; color: white;"}
+::: {.h3 .p .content-visible when-profile="en"}
+[Learn more](/pages/empty.qmd)
 :::
 
-::: {.p .content-visible when-profile="lt"}
-[Pirmyn](/pages/empty.qmd){style="text-decoration: none; color: white;"}
-:::
-:::
-:::
-
-::: {.col style="width: 50%;"}
-![](images/salmon.webp){.image .sm-padding}
+::: {.btn-primary-link .content-visible when-profile="lt"}
+[Pirmyn](/pages/empty.qmd)
 :::
 :::
 :::
 
-<!----------------------------------- fullscreen background change to grey ----------------------------------->
+:::: {.col-6 .px-2}
+![](images/salmon.webp){.image}
+:::
+:::
+:::
 
-::: {.column-screen style="background-color: #eff4f7;"}
-<!----------------------------------- site content stays in body width ----------------------------------->
+::: spacer-2rem
+ 
+:::
 
+<!----------- fullscreen background change to grey ----------------->
+::: {.column-screen style="background-color: #e2e2e2;"}
+
+<!----------- site content stays in body width ----------------->
 ::: column-body
-<!----------------------------------- Online courses grid ----------------------------------->
+
+<!--------------- Online courses grid ----------------------------------->
+::: spacer-2rem
+ 
+:::
 
 ::: {.content-visible when-profile="en"}
-## Online courses
+# Online courses
 :::
 
 ::: {.content-visible when-profile="lt"}
-## Nuotoliniai mokymai (anglų kalba)
+# Nuotoliniai mokymai (anglų kalba)
 :::
 
-::: {.d-grid .gap-2 style="box-shadow: 0px 20px 40px rgba(0,0,0,0.1); margin-bottom: 30px; background-color: #ffffff"}
+::: {.container .shadow-box-white}
 <!-- start row 1 -->
-
-::: {.row style="width: 100%; display: flex;"}
-::: {.col .p-3 .align-self-center style="width: 50%;"}
+::::: {.flex-row .align-items-center .justify-content-evenly .py-2}
+:::: {.col-6 .px-2 .align-self-center style="text-align: center; flex: 1 1 0px;"}
 ::: {.content-visible when-profile="en"}
 Size based ecosystem models with the R package mizer and applications for coastal and inland ecosystems
+
 :::
 
 ::: {.content-visible when-profile="lt"}
 Individų dydžiais paremti ekosistemų modeliai ir jų taikymas vidaus vandenų ir pakrantės ekosistemoms
+
 :::
 
-::: text-center
-::: {.btn .button .btn-primary}
+:::: {.btn .button .btn-secondary}
 ::: {.content-visible when-profile="en"}
-[Learn more](/pages/empty.qmd){style="text-decoration: none; color: white;"}
+[Learn more](/pages/empty.qmd)
 :::
 
 ::: {.content-visible when-profile="lt"}
-[Pirmyn](/pages/empty.qmd){style="text-decoration: none; color: white;"}
+[Pirmyn](/pages/empty.qmd)
 :::
-:::
-:::
-:::
+::::
+::::
 
-::: {.col .p-3 .align-self-center style="width: 50%;"}
-![](images/mizer.webp){.image .sm-padding}
-:::
+:::: {.col-6 .px-2 .align-self-center}
+![](images/mizer.webp){.image}
+::::
+<!-- end row -->
+:::::
 
-<!-- end row 1 -->
-:::
-
-::: {.row style="width: 100%; display: flex;"}
-::: {.col .p-3 .align-self-center style="width: 50%;"}
+::::: {.flex-row .align-items-center .justify-content-evenly .py-2}
+:::: {.col-6 .px-2 .align-self-center style="text-align: center; flex: 1 1 0px;"}
 ::: {.content-visible when-profile="en"}
 Machine learning based image collection, annotation and classification
 :::
@@ -364,28 +320,25 @@ Machine learning based image collection, annotation and classification
 Dirbtiniu intelektu paremtas vaizdų surinkimas ir analizė biologiniuose tyrimuose
 :::
 
-::: text-center
-::: {.btn .button .btn-primary}
+:::: {.btn .button .btn-secondary}
 ::: {.content-visible when-profile="en"}
-[Learn more](/pages/empty.qmd){style="text-decoration: none; color: white;"}
+[Learn more](/pages/empty.qmd)
 :::
 
 ::: {.content-visible when-profile="lt"}
-[Pirmyn](/pages/empty.qmd){style="text-decoration: none; color: white;"}
+[Pirmyn](/pages/empty.qmd)
 :::
-:::
-:::
-:::
+::::
+::::
 
-::: {.col .p-3 .align-self-center style="width: 50%;"}
-![](images/Courses_ML.webp){.image .sm-padding}
+:::: {.col-6 .px-2 .align-self-center style="flex: 1 1 0px;"}
+![](images/Courses_ML.webp){.image}
 :::
+<!-- end row -->
+:::::
 
-<!-- end of row -->
-:::
-
-::: {.row style="width: 100%; display: flex;"}
-::: {.col .p-3 .align-self-center style="width: 50%;"}
+::::: {.flex-row .align-items-center .justify-content-evenly .py-2}
+:::: {.col-6 .px-2 .align-self-center style="text-align: center;"}
 ::: {.content-visible when-profile="en"}
 Catch per unit effort data standardisation in R for fisheries biologists and practitioners
 :::
@@ -394,28 +347,25 @@ Catch per unit effort data standardisation in R for fisheries biologists and pra
 Sugavimų pastangai standartizavimas žuvininkystės tyrimuose naudojant R programą
 :::
 
-::: text-center
-::: {.btn .button .btn-primary}
+:::: {.btn .button .btn-secondary}
 ::: {.content-visible when-profile="en"}
-[Learn more](/pages/empty.qmd){style="text-decoration: none; color: white;"}
+[Learn more](/pages/empty.qmd)
 :::
 
 ::: {.content-visible when-profile="lt"}
-[Pirmyn](/pages/empty.qmd){style="text-decoration: none; color: white;"}
+[Pirmyn](/pages/empty.qmd)
 :::
-:::
-:::
-:::
+::::
+::::
 
-::: {.col .p-3 .align-self-center style="width: 50%;"}
-![](images/Course_Stats.webp){.image .sm-padding}
+:::: {.col-6 .px-2 .align-self-center}
+![](images/Course_Stats.webp){.image}
 :::
-
 <!-- end of row -->
-:::
+::::
 
-::: {.row style="width: 100%; display: flex;"}
-::: {.col .p-3 .align-self-center style="width: 50%;"}
+::::: {.flex-row .align-items-center .justify-content-evenly .py-2}
+:::: {.col-6 .px-2 .align-self-center style="text-align: center;"}
 ::: {.content-visible when-profile="en"}
 Exploring, cleaning & filtering data prior to analysis
 :::
@@ -424,54 +374,62 @@ Exploring, cleaning & filtering data prior to analysis
 Biologinių duomenų paruošimas statistinei analizei
 :::
 
-::: text-center
-::: {.btn .button .btn-primary}
+:::: {.btn .button .btn-secondary}
 ::: {.content-visible when-profile="en"}
-[Learn more](/pages/empty.qmd){style="text-decoration: none; color: white;"}
+[Learn more](/pages/empty.qmd)
 :::
 
 ::: {.content-visible when-profile="lt"}
-[Pirmyn](/pages/empty.qmd){style="text-decoration: none; color: white;"}
+[Pirmyn](/pages/empty.qmd)
 :::
-:::
-:::
-:::
+::::
+::::
 
-::: {.col .p-3 .align-self-center style="width: 50%;"}
-![](images/dataTypes.webp){.image .sm-padding}
+:::: {.col-6 .px-2 .align-self-center}
+![](images/dataTypes.webp){.image}
 :::
-
 <!-- end of row -->
 :::
 
-<!-- end of d-grid -->
+<!-- end of grid container -->
 :::
 
 <!-- end of text-body width container -->
 :::
 
+::: spacer-2rem
+ 
+:::
+
 <!-- end of screen-width container -->
 :::
 
-<!----------------------------------- PDFs section only available in lt ----------------------------------->
+<!---------- PDFs section only available in lt --------------->
 
 ::: {.content-visible when-profile="lt"}
-::: d-grid
-::: {.row style="width: 100%; display: flex;"}
-::: {.col style="width: 33.33333%;"}
-![](pdfs/thumbnails/ZvejybosTaisykles-page-1.jpg){.image .sm-padding}
 
-#### ŽVEJYBOS TAISYKLĖS
+::: spacer-2rem
+ 
 :::
 
-::: {.col style="width: 33.33333%;"}
-![](pdfs/thumbnails/form.jpg){.image .sm-padding}
+# Pavadinimo pavyzdys
+
+::: container
+::::: {.flex-row .align-items-center .justify-content-evenly .py-2}
+::: {.col-4 .px-2 .align-self-center style="text-align: center;"}
+![](pdfs/thumbnails/ZvejybosTaisykles-page-1.jpg){.image}
+
+#### Žvejybos taisyklės
+:::
+
+::: {.col-4 .px-2 .align-self-center style="text-align: center;"}
+![](pdfs/thumbnails/form.jpg){.image}
 
 #### Anketa žvejams
 :::
 
-::: {.col style="width: 33.33333%;"}
-![](pdfs/thumbnails/LydekaiPaliepus-flyer-page_1.jpg){.image .sm-padding}
+::: {.col-4 .px-2 .align-self-center style="text-align: center;"}
+![](pdfs/thumbnails/LydekaiPaliepus-flyer-page_1.jpg){.image}
 
 #### Atsisiųskite mūsų skrajutę
 :::
@@ -479,66 +437,68 @@ Biologinių duomenų paruošimas statistinei analizei
 <!-- end of row -->
 :::
 
-::: {.row style="width: 100%; display: flex;"}
-::: {.col style="width: 33.33333%;"}
-![](pdfs/thumbnails/Nauja-FishSizeProject1-original-page-1.jpg){.image .sm-padding}
+::::: {.flex-row .align-items-center .justify-content-evenly .py-2}
+::: {.col-4 .px-2 .align-self-center style="text-align: center;"}
+![](pdfs/thumbnails/Nauja-FishSizeProject1-original-page-1.jpg){.image}
 
 #### Programėlė Fish Size Project
 :::
 
-::: {.col style="width: 33.33333%;"}
-![](pdfs/thumbnails/Nauja-FishSizeProject1-page-1.jpg){.image .sm-padding}
+::: {.col-4 .px-2 .align-self-center style="text-align: center;"}
+![](pdfs/thumbnails/Nauja-FishSizeProject1-page-1.jpg){.image}
 
 #### Senų nuotraukų konkursas
 :::
 
-::: {.col style="width: 33.33333%;"}
-![](pdfs/thumbnails/Nauja-FishSizeProject1-page-1.jpg){.image .sm-padding}
+::: {.col-4 .px-2 .align-self-center style="text-align: center;"}
+![](pdfs/thumbnails/Nauja-FishSizeProject1-page-1.jpg){.image}
 
 #### Žuvų nuotraukų konkursas
 :::
-
 <!-- end of row -->
 :::
-
-<!-- end of grid -->
+<!-- end of grid container -->
 :::
 
-<!----------------------------------- YT/FB only available in lt ----------------------------------->
+<!-------------- YT/FB only available in lt -------------------->
 
-::: d-grid
-::: {.row style="width: 100%; display: flex;"}
-::: {.col .align-self-center style="width: 10%;"}
+::: spacer-2rem
+ 
+:::
+
+::: container
+::::: {.flex-row .align-items-center .justify-content-evenly .py-2}
+::: {.col-2 .align-self-center}
 ### {{< fa brands square-facebook size=2x href="https://www.facebook.com/Lydekai-paliepus-114033690479267">}}
 :::
 
-::: {.col .align-self-center style="width: 40%; text-align: center;"}
+::: {.col-4 .align-self-center}
 ### Mūsų Facebook paskyra
 :::
 
-::: {.col .align-self-center style="width: 10%;"}
+::: {.col-2 .align-self-center}
 ### {{< fa brands square-youtube size=2x href="https://www.youtube.com/channel/UCHq5ojgsyjh5VdEWNuDgMqg">}}
 :::
 
-::: {.col .align-self-center style="width: 40%; text-align: center;"}
+::: {.col-4 .align-self-center}
 ### Mūsų YouTube paskyra
 :::
-
 <!-- end of row -->
 :::
-
-<!-- end of grid -->
+<!-- end of grid container -->
 :::
 
 <!-- end of lt-only section -->
 :::
 
+::: spacer-2rem
+ 
+:::
 <!----------------------------------- Funding section ----------------------------------->
 
-::: {style="background-color: #e2e2e2; box-shadow: 0px 20px 40px rgba(0,0,0,0.1);"}
-::: {.d-grid style="justify-content: center;"}
-::: {.row style="width: 100%; display: flex; margin-top: 2em;"}
-::: {.col .align-self-center style="width: 50%; padding: 40px;"}
+:::::: {.container .shadow-box-grey}
+::::: {.flex-row .align-items-center .justify-content-evenly .py-2 .px-4}
+:::: {.col-6 .align-self-center}
 ::: {.content-visible when-profile="en"}
 This project is funded by the European Regional Development fund (measure Nr. 01.2.2-LMT-K-718), project "Advanced models, citizen science and big data for sustainable food production and ecological services of inland aquatic ecosystems"
 :::
@@ -546,21 +506,18 @@ This project is funded by the European Regional Development fund (measure Nr. 01
 ::: {.content-visible when-profile="lt"}
 Projektas finansuojamas iš Europos regioninės plėtros fondo lėšų pagal priemonės Nr. 01.2.2-LMT-K-718 veiklą ,,Mokslininkų iš užsienio pritraukimas vykdyti mokslinius tyrimus”, projektas „Pažangūs modeliai, piliečių mokslas ir didieji duomenys tvariai vidaus vandenų maisto produkcijai ir ekosistemų paslaugoms“
 :::
-:::
+::::
 
-::: {.col .align-self-center style="width: 50%;"}
+:::: {.col-6 .align-self-center}
 ::: {.content-visible when-profile="en"}
-![](/images/ESFIVP-I-2-english.gif){.image .sm-padding width="90%"}
+![](/images/ESFIVP-I-2-english.gif){.image}
 :::
 
 ::: {.content-visible when-profile="lt"}
-![](/images/ESFIVP-I-1.gif){.image .sm-padding}
+![](/images/ESFIVP-I-1.gif){.image}
 :::
-:::
-
+::::
 <!-- end of row -->
-:::
-
-<!-- end of grid -->
-:::
-:::
+:::::
+<!-- end of grid container -->
+::::::

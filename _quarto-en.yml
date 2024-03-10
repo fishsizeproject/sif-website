@@ -3,7 +3,7 @@ project:
   title: "Sustainable Inland Fisheries | Healthy ecosystems in a changing world"
   output-dir: ./en/
 
-output-file: index-en.html
+# output-file: index-en.html
 lang: en
 
 website:

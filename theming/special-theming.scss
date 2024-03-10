@@ -136,7 +136,7 @@ hr {
   text-transform: uppercase;
   text-align: center;
   font-size: 4rem !important; 
-  padding-top: 1.5rem !important;
+  padding-top: 1.5em !important;
   line-height: 1.25em !important;
 }
 
@@ -145,50 +145,48 @@ hr {
   text-align: center;
   font-size: 1.5rem !important;
   padding-top: 1em !important;
+  padding-bottom: 1.25em !important;
   line-height: 1.1em !important;
 }
 
 
 .btn {
   &-primary {
-    //background-color: $primary;
-    //border-color: shade-color($primary, 10%);
-    padding-bottom: 5px;
+    background-color: $primary;
+    border-color: shade-color($primary, 10%);
   }
-
-  &-default {
-    border-color: shade-color($secondary, 10%);
-  }
-
   &-secondary {
+    background-color: $secondary;
     border-color: shade-color($secondary, 10%);
   }
+}
 
-  &-success {
-    border-color: shade-color($success, 10%);
-  }
+.btn-primary a {
+  color: $white !important;
+  text-decoration: none !important;
+  font-size: $h3-font-size;
+}
 
-  &-info {
-    color: $white;
-    border-color: shade-color($info, 10%);
-  }
+.btn-secondary a {
+  color: $light !important;
+  text-decoration: none !important;
+  font-size: $h4-font-size;
+}
 
-  &-danger {
-    border-color: shade-color($danger, 10%);
-  }
+.btn {
+	display: inline-block;
+	font-weight: inherit;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	line-height: 1.25;
+	border-radius: 0.25rem;
+	transition: all 0.15s ease-in-out;
+}
 
-  &-warning {
-    color: $white;
-    border-color: shade-color($warning, 10%);
-  }
-
-  &-light {
-    border-color: shade-color($light, 10%);
-  }
-
-  &-dark {
-    border-color: shade-color($dark, 10%);
-  }
+.btn:focus,
+.btn:hover {
+	text-decoration: none;
 }
 
 .btn-outline-secondary {
