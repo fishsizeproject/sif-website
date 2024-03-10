@@ -4,12 +4,21 @@ These quarto extensions are required for the website to work so you will need to
 	mcanouil/quarto-iconify
 Install them via the 'quarto add' terminal command
 
-Prior to publishing changes which include R code you might need to generate a new lockfile so your packages will work correctly via:
+Prior to publishing changes which include R code you might need to generate a new lockfile so your packages will work correctly. Make sure your packages are up to date and working in R, then run:
 	renv::snapshot()
 
-You can render and view the site via the "Render" button in RStudio, however it will only show you the default language version (currently English, or the en profile). To preview the Lithuanian version, use:
-  quarto preview --profiles lt
+You can preview the site via the "Render" button in RStudio, however it will only show you the default language version (currently Lithuanian, or the lt profile). To preview the English version, use this command in the terminal:
+  quarto preview --profiles en
 
 You can also preview only one page with:
   quarto preview <path>/<filename>.qmd
+  
+I find that if you're changing hundreds of files at once RStudio can be extremely slow in its Git processes. Instead of using the Push, Pull and Commit buttons in RStudio, these terminal commands are much faster:
+  git add --all
+  git commit -m "Here's all the cool stuff I've done"
+  git pull origin
+  git push origin
+  
+If you're not currently on the main branch and you want to publish the site, you'll need to merge with main. The easiest way to do this is from the terminal (after you've committed all staged changes):
+  git merge main
 
