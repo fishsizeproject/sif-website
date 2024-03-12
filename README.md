@@ -1,3 +1,5 @@
-# sif-quarto.github.io
+# sif-website
 
-A Quarto version of the SIF website. Check out the 'documentation' folder for instructions on working with this site.  
+A Quarto version of the SIF website (work in progress).
+
+Check out the 'site-documentation' folder for instructions on working with this site. 
