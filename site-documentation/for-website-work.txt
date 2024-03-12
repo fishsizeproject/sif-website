@@ -25,3 +25,7 @@ If you're not currently on the main branch and you want to publish the site, you
   git merge <your working branch>
   git push origin
 
+If for whatever reason you need to delete an old working branch (not main!) you can delete it both locally and remotely via:
+  git branch -d <branch name>
+  git push origin --delete <branch name>
+
