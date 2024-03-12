@@ -54,13 +54,9 @@ jobs:
           
       # Must render profiles in this order otherwise default overrides others
       - name: Render default profile
-        uses: quarto-dev/quarto-actions/render@v2
-        with:
-          to: lt
+        run: quarto render --profile lt
       - name: Render secondary profile
-        uses: quarto-dev/quarto-actions/render@v2
-        with:
-          to: en
+        run: quarto render --profile en
 
       # NOTE: If Publishing to GitHub Pages, set the permissions correctly (see top of this yaml)
       #- name: Publish to GitHub Pages (and render)
