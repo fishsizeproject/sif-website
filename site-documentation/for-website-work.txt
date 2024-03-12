@@ -19,6 +19,9 @@ I find that if you're changing hundreds of files at once RStudio can be extremel
   git pull origin
   git push origin
   
-If you're not currently on the main branch and you want to publish the site, you'll need to merge with main. The easiest way to do this is from the terminal (after you've committed all staged changes):
-  git merge main
+If you're not currently on the main branch and you want to publish the site, you'll need to merge with main before pushing your changes. The easiest way to do this (after you've committed all changes) is from the terminal:
+  git checkout main
+  git pull
+  git merge <your working branch>
+  git push origin
 

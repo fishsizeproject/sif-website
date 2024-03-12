@@ -22,11 +22,11 @@ Lydekai Paliepus
 
 ::: new-subtitle
 ::: {.content-visible when-profile="en"}
-Healthy ecosystems in a changing world (testing)
+Healthy ecosystems in a changing world
 :::
 
 ::: {.content-visible when-profile="lt"}
-Sveikos ekosistemos kintančiame pasaulyje (testing)
+Sveikos ekosistemos kintančiame pasaulyje
 :::
 :::
 

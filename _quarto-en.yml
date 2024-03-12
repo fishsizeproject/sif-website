@@ -24,7 +24,6 @@ website:
       - text: "Home"
         href: index.qmd
       - text: "Pages"
-        href: pages/empty.qmd
         menu:
         - text: "Managers"
           href: pages/managers.qmd
