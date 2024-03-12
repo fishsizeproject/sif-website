@@ -24,26 +24,25 @@ website:
       - text: "Pradžia"
         href: index.qmd
       - text: "Puslapiai"
-        href: pages/empty.qmd
         menu:
         - text: "Programele"
-          href: pages/empty.qmd
+          href: pages/managers.qmd
         - text: "Zvejams"
-          href: pages/empty.qmd
+          href: pages/fishers.qmd
         - text: "Valdymui"
-          href: pages/empty.qmd
+          href: pages/scientists.qmd
         - text: "Mokslui"
-          href: pages/empty.qmd
+          href: pages/data.qmd
         - text: "Modeliai"
-          href: pages/empty.qmd
+          href: https://fishsizeproject.github.io/models/
         - text: "Duomenys"
-          href: pages/empty.qmd
+          href: pages/fishsizeproject.qmd
       - text: "Grupė"
-        href: pages/empty.qmd
+        href: pages/team.qmd
       - text: "Media"
-        href: pages/empty.qmd
+        href: pages/resources.qmd
       - text: "Susisiekite"
-        href: pages/empty.qmd
+        href: pages/contact.qmd
       - text: "{{< iconify flag gb-4x3 height=1em >}}"
         href: en/
 

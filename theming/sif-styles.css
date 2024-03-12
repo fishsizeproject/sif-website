@@ -1,6 +1,6 @@
 /* css styles */
 
-/* Text etc */
+/* Clear default text spacing */
 
 .p, p {
   font-family: inherit;
@@ -8,8 +8,6 @@
   padding: 0;
   margin: 0;
 }
-
-/* Text spacing */
 
 /* Custom header and footer definitions */
 
@@ -43,6 +41,30 @@
   flex-grow: 0;
 }
 */
+.navbar-brand-container {
+  width: 15%;
+  height: auto;
+  margin: 0.5%;
+}
+
+.navbar-brand {
+  width: 100%;
+  overflow: visible;
+}
+
+.navbar-logo {
+  max-height: 120px;
+  min-height: 2.5em;
+  width: auto;
+}
+
+/*
+
+.navbar-brand.navbar-brand-logo {
+  height: 3rem;
+  max-width: 200px;
+  padding-left: 2.5%;
+}
 
 .navbar-brand-container .mx-auto {
   max-width: 35%;
@@ -54,12 +76,11 @@
   overflow: visible;
 }
 
-.navbar-logo {
-  max-height: 5em;
-}
+*/
 
-.navbar-brand > img {
-  height: 100%;
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
 /* Custom classes for ease of editing */

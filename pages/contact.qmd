@@ -1,0 +1,77 @@
+---
+format: html
+---
+
+<!-- Banner image -->
+::: column-screen
+<img src="/images/hero.webp" style="width: 100%; height: 300px; object-fit: cover; object-position: 25% 25%; margin: 0px;"/>
+:::
+<!-- Banner image -->
+
+::: {.content-visible when-profile="en"}
+# Susisiekite
+:::
+
+::: {.content-visible when-profile="lt"}
+# Contact
+:::
+
+::::: {.d-flex .align-items-center .justify-content-evenly .p-4}
+:::: {.col-2 .align-self-center .py-4 .px-5 .flex-grow-0}
+{{< iconify carbon location height=3.5em >}} 
+::::
+
+:::: {.col-6 .align-self-center .px-2 .flex-grow-1 style="text-align: left;"}
+::: {.content-visible when-profile="lt"}
+Gamtos tyrimų centras
+
+Akademijos g. 2
+
+LT-08412
+
+Vilnius
+:::
+
+::: {.content-visible when-profile="en"}
+Nature Research Centre
+
+Akademijos st. 2
+
+LT-08412
+
+Vilnius, Lithuania
+:::
+::::
+:::::
+
+::::: {.d-flex .align-items-center .justify-content-evenly .p-4}
+:::: {.col-2 .align-self-center .py-4 .px-5 .flex-grow-0}
+{{< iconify carbon email height=3.5em >}} 
+::::
+
+:::: {.col-6 .align-self-center .px-2 .flex-grow-1 style="text-align: left;"}
+::: {.content-visible when-profile="lt"}
+[lydekaipaliepus@gamtc.lt](mailto:lydekaipaliepus@gamtc.lt)
+:::
+
+::: {.content-visible when-profile="en"}
+[lydekaipaliepus@gamtc.lt](mailto:lydekaipaliepus@gamtc.lt)
+:::
+::::
+:::::
+
+::::: {.d-flex .align-items-center .justify-content-evenly .p-4}
+:::: {.col-2 .align-self-center .py-4 .px-5 .flex-grow-0}
+{{< iconify carbon phone height=3.5em >}} 
+::::
+
+:::: {.col-6 .align-self-center .px-2 .flex-grow-1 style="text-align: left;"}
+::: {.content-visible when-profile="lt"}
+Jei turite klausimų apie mūsų mėgėjiškos žvejybos veiklas bei piliečių mokslą, galite susisiekti su Dr Justu Dainiu, telefonu +370 66263430.
+:::
+
+::: {.content-visible when-profile="en"}
+If you have questions about our recreational fishing research and citizen science, you can also contact Dr Justas Dainys on +370 66263430.
+:::
+::::
+:::::

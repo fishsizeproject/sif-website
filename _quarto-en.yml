@@ -27,23 +27,23 @@ website:
         href: pages/empty.qmd
         menu:
         - text: "Managers"
-          href: pages/empty.qmd
+          href: pages/managers.qmd
         - text: "Anglers"
-          href: pages/empty.qmd
+          href: pages/fishers.qmd
         - text: "Scientists"
-          href: pages/empty.qmd
+          href: pages/scientists.qmd
         - text: "Data"
-          href: pages/empty.qmd
+          href: pages/data.qmd
         - text: "Models"
-          href: pages/empty.qmd
+          href: https://fishsizeproject.github.io/models/
         - text: "FishSize Project"
-          href: pages/empty.qmd
+          href: pages/fishsizeproject.qmd
       - text: "Team"
-        href: pages/empty.qmd
+        href: pages/team.qmd
       - text: "Media"
-        href: pages/empty.qmd
+        href: pages/resources.qmd
       - text: "Contact"
-        href: pages/empty.qmd
+        href: pages/contact.qmd
       - text: "{{< iconify flag lt-4x3 height=1em >}}"
         href: ../
 
