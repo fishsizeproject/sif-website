@@ -52,11 +52,9 @@ jobs:
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           renv::restore()
           
-      # Must render profiles in this order otherwise default overrides others
+      # Must render profiles in the correct order otherwise default overrides others
       - name: Render default profile
-        run: quarto render --profile lt
-      - name: Render secondary profile
-        run: quarto render --profile en
+        uses: quarto-dev/quarto-actions/render@v2
 
       # NOTE: If Publishing to GitHub Pages, set the permissions correctly (see top of this yaml)
       #- name: Publish to GitHub Pages (and render)
