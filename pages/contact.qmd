@@ -8,11 +8,11 @@ format: html
 :::
 <!-- Banner image -->
 
-::: {.content-visible when-profile="en"}
+::: {.content-visible when-profile="lt"}
 # Susisiekite
 :::
 
-::: {.content-visible when-profile="lt"}
+::: {.content-visible when-profile="en"}
 # Contact
 :::
 
