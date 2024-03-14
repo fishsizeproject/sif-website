@@ -9,8 +9,8 @@ website:
   title: "Lydekai Paliepus"
   description: "Sveikos ekosistemos kintančiame pasaulyje"
   favicon: images/SIF-LOGO-Lt.png
-  # site-url: https://sif-quarto.drtreimer.com
-  # repo-url: https://github.com/stormeyseas/sif-quarto.github.io
+  # site-url: https://<new-domain-name>
+  repo-url: https://fishsizeproject.github.io/sif-website/
   page-navigation: false # Provide next and previous article links in footer
   back-to-top-navigation: true
   navbar: 
