@@ -53,8 +53,14 @@ jobs:
           renv::restore()
           
       # Must render profiles in the correct order otherwise default overrides others
-      - name: Render default profile
+      - name: Render default language
         uses: quarto-dev/quarto-actions/render@v2
+        env:
+          QUARTO_PROFILE: lt
+      - name: Render second language
+        uses: quarto-dev/quarto-actions/render@v2
+        env:
+          QUARTO_PROFILE: en
 
       # NOTE: If Publishing to GitHub Pages, set the permissions correctly (see top of this yaml)
       #- name: Publish to GitHub Pages (and render)
