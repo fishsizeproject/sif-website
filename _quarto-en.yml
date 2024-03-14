@@ -25,17 +25,17 @@ website:
         href: index.qmd
       - text: "Pages"
         menu:
-        - text: "Managers"
-          href: pages/managers.qmd
-        - text: "Anglers"
+        - text: "For anglers"
           href: pages/fishers.qmd
-        - text: "Scientists"
+        - text: "For managers"
+          href: pages/managers.qmd
+        - text: "For scientists"
           href: pages/scientists.qmd
-        - text: "Data"
-          href: pages/data.qmd
         - text: "Models"
           href: https://fishsizeproject.github.io/models/
-        - text: "FishSize Project"
+        - text: "Data"
+          href: pages/datasets.qmd
+        - text: "FishSizeProject App"
           href: pages/fishsizeproject.qmd
       - text: "Team"
         href: pages/team.qmd

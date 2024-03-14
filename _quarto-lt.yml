@@ -25,17 +25,17 @@ website:
         href: index.qmd
       - text: "Puslapiai"
         menu:
-        - text: "Programele"
-          href: pages/managers.qmd
-        - text: "Zvejams"
+        - text: "Žvejams"
           href: pages/fishers.qmd
         - text: "Valdymui"
-          href: pages/scientists.qmd
+          href: pages/managers.qmd
         - text: "Mokslui"
-          href: pages/data.qmd
+          href: pages/scientists.qmd
         - text: "Modeliai"
           href: https://fishsizeproject.github.io/models/
         - text: "Duomenys"
+          href: pages/datasets.qmd
+        - text: "Programėlė"
           href: pages/fishsizeproject.qmd
       - text: "Grupė"
         href: pages/team.qmd
