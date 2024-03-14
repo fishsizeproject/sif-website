@@ -9,92 +9,78 @@
   {
     "objectID": "pages/team.html",
     "href": "pages/team.html",
-    "title": "Placeholder",
+    "title": "Team",
     "section": "",
-    "text": "Placeholder page\n\n\n\n\n Back to top"
+    "text": "Team\n\n\n\n\n Back to top"
   },
   {
     "objectID": "pages/resources.html",
     "href": "pages/resources.html",
-    "title": "Placeholder",
+    "title": "Resources",
     "section": "",
-    "text": "Placeholder page\n\n\n\n\n Back to top"
+    "text": "Resources\n\n\n\n\n Back to top"
   },
   {
     "objectID": "pages/fishsizeproject.html",
     "href": "pages/fishsizeproject.html",
-    "title": "Placeholder",
+    "title": "FishSizeProject App",
     "section": "",
-    "text": "Placeholder page\n\n\n\n\n Back to top"
+    "text": "FishSizeProject App\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "pages/empty.html",
-    "href": "pages/empty.html",
-    "title": "Placeholder",
+    "objectID": "pages/empty-page-template.html",
+    "href": "pages/empty-page-template.html",
+    "title": "Title (En)",
     "section": "",
-    "text": "Placeholder page\n\n\n\n\n Back to top"
+    "text": "Title (En)\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "pages/data.html",
-    "href": "pages/data.html",
-    "title": "Placeholder",
+    "objectID": "pages/contact.html",
+    "href": "pages/contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "Placeholder page\n\n\n\n\n Back to top"
+    "text": "Contact\n\n\n\n\n\nNature Research Centre\nAkademijos st. 2\nLT-08412\nVilnius, Lithuania\n\n\n\n\n\n\n\nlydekaipaliepus@gamtc.lt\n\n\n\n\n\n\n\nIf you have questions about our recreational fishing research and citizen science, you can also contact Dr Justas Dainys on +370 66263430.\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Explore",
     "section": "",
-    "text": "Sustainable Inland Fisheries\n\n\nHealthy ecosystems in a changing world\n\n\nSustainable Inland Fisheries is a Nature Research Centre scientific project funded by the Lithuanian Research Council. Our mission is to help improve ecosystem health and fisheries management in the inland waters of Lithuania and elsewhere. Inland ecosystems are important for recreation, subsistence fishing, biodiversity and essential ecological services. Our team is developing simple tools for fisheries management and understanding of inland ecosystems now and into the future. We use modern, open science approaches that harnesses the power of citizen science and facilitate effective science communication.\n\n\nExplore\n\n\n\n\n\n\n\n\n\n\nFor anglers\n\n\n\n\n\n\nFor anglers\n\n\n\n\n\nFor anglers\n\n\n\n\n\n\n\n\nFor anglers\n\n\n\n\n\nFor anglers\n\n\n\n\n\nFor anglers\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nLearn more\n\n\n\n\n\n\n\n\n\nAssessing recreational fishing effort and catches in Lithuania\n\n\n\n\n\n\n\n\n\n\n\nCatch-release fishing: How to release caught fish safely\n\n\n\n\n\n\n\n\n\n\n\n\nAssessing recreational fishing effort and catches in Lithuania\nAvailable with English subtitles\n\n\n\n\n\n\n \n\n\n\n \n\n\n\n\nOnline workshop\n\nLearn more\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n \n\n\nOnline courses\n\n\n\n\nSize based ecosystem models with the R package mizer and applications for coastal and inland ecosystems\n\nLearn more\n\n\n\n\n\n\n\n\n\nMachine learning based image collection, annotation and classification\n\nLearn more\n\n\n\n\n\n\n\n\n\nCatch per unit effort data standardisation in R for fisheries biologists and practitioners\n\nLearn more\n\n\n\n\n\n\n\n\n\nExploring, cleaning & filtering data prior to analysis\n\nLearn more\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n \n\n\n\n\n\nThis project is funded by the European Regional Development fund (measure Nr. 01.2.2-LMT-K-718), project “Advanced models, citizen science and big data for sustainable food production and ecological services of inland aquatic ecosystems”\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "pages/contact.html",
-    "href": "pages/contact.html",
-    "title": "Susisiekite",
-    "section": "",
-    "text": "Susisiekite\n\n\n\n\n\nNature Research Centre\nAkademijos st. 2\nLT-08412\nVilnius, Lithuania\n\n\n\n\n\n\n\nlydekaipaliepus@gamtc.lt\n\n\n\n\n\n\n\nIf you have questions about our recreational fishing research and citizen science, you can also contact Dr Justas Dainys on +370 66263430.\n\n\n\n\n\n\n Back to top"
+    "text": "Sustainable Inland Fisheries\n\n\nHealthy ecosystems in a changing world\n\n\nSustainable Inland Fisheries is a Nature Research Centre scientific project funded by the Lithuanian Research Council. Our mission is to help improve ecosystem health and fisheries management in the inland waters of Lithuania and elsewhere. Inland ecosystems are important for recreation, subsistence fishing, biodiversity and essential ecological services. Our team is developing simple tools for fisheries management and understanding of inland ecosystems now and into the future. We use modern, open science approaches that harnesses the power of citizen science and facilitate effective science communication.\n\n\nExplore\n\n\n\n\n\n\n\n\nFor anglers\n\n\n\nFor managers\n\n\n\nFor scientists\n\n\n\n\n\n\nModels\n\n\n\nDatasets\n\n\n\nFishSizeProject App\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nLearn more\n\n\n\n\n\n\n\n\n\nAssessing recreational fishing effort and catches in Lithuania\n\n\n\n\n\n\n\n\n\n\n\nCatch-release fishing: How to release caught fish safely\n\n\n\n\n\n\n\n\n\n\n\n\nAssessing recreational fishing effort and catches in Lithuania\nAvailable with English subtitles\n\n\n\n\n\n\n \n\n\n\n \n\n\n\n\nOnline workshop\n\nLearn more\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n \n\n\nOnline courses\n\n\n\n\nSize based ecosystem models with the R package mizer and applications for coastal and inland ecosystems\n\nLearn more\n\n\n\n\n\n\n\n\n\nMachine learning based image collection, annotation and classification\n\nLearn more\n\n\n\n\n\n\n\n\n\nCatch per unit effort data standardisation in R for fisheries biologists and practitioners\n\nLearn more\n\n\n\n\n\n\n\n\n\nExploring, cleaning & filtering data prior to analysis\n\nLearn more\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n \n\n\n\n\n\nThis project is funded by the European Regional Development fund (measure Nr. 01.2.2-LMT-K-718), project “Advanced models, citizen science and big data for sustainable food production and ecological services of inland aquatic ecosystems”\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "pages/datasets.html",
     "href": "pages/datasets.html",
-    "title": "Placeholder",
+    "title": "Datasets",
     "section": "",
-    "text": "Placeholder page\n\n\n\n\n Back to top"
+    "text": "Datasets\n\n\n\n\n Back to top"
   },
   {
     "objectID": "pages/fishers.html",
     "href": "pages/fishers.html",
-    "title": "Placeholder",
+    "title": "For anglers",
     "section": "",
-    "text": "Placeholder page\n\n\n\n\n Back to top"
+    "text": "For anglers\n\n\n\n\n Back to top"
   },
   {
     "objectID": "pages/managers.html",
     "href": "pages/managers.html",
-    "title": "Placeholder",
+    "title": "For managers",
     "section": "",
-    "text": "Placeholder page\n\n\n\n\n Back to top"
+    "text": "For managers\n\n\n\n\n Back to top"
   },
   {
     "objectID": "pages/scientists.html",
     "href": "pages/scientists.html",
-    "title": "Placeholder",
+    "title": "For scientists",
     "section": "",
-    "text": "Placeholder page\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "pages/testing-page.html",
-    "href": "pages/testing-page.html",
-    "title": "Page for testing things",
-    "section": "",
-    "text": "These are the different page width presets that content (including nested columns) can be situated within.\n\n\nWidth = column-body (default)\n\n\n\n\nWidth = column-body-outset\n\n\n\n\nWidth = column-page-inset\n\n\n\n\nWidth = column-page\n\n\n\n\nWidth = column-screen-inset\n\n\n\n\nWidth = column-screen"
+    "text": "For scientists\n\n\n\n\n Back to top"
   },
   {
     "objectID": "pages/testing-page.html#column-width",
     "href": "pages/testing-page.html#column-width",
     "title": "Page for testing things",
-    "section": "",
-    "text": "These are the different page width presets that content (including nested columns) can be situated within.\n\n\nWidth = column-body (default)\n\n\n\n\nWidth = column-body-outset\n\n\n\n\nWidth = column-page-inset\n\n\n\n\nWidth = column-page\n\n\n\n\nWidth = column-screen-inset\n\n\n\n\nWidth = column-screen"
+    "section": "Column width",
+    "text": "Column width\nThese are the different page width presets that content (including nested columns) can be situated within.\n\n\nWidth = column-body (default)\n\n\n\n\nWidth = column-body-outset\n\n\n\n\nWidth = column-page-inset\n\n\n\n\nWidth = column-page\n\n\n\n\nWidth = column-screen-inset\n\n\n\n\nWidth = column-screen"
   }
 ]
