@@ -2,54 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sif-quarto.drtreimer.com/theming/footer-generator.html</loc>
-    <lastmod>2024-03-12T03:11:55.954Z</lastmod>
+    <lastmod>2024-03-14T10:39:16.915Z</lastmod>
   </url>
   <url>
     <loc>https://sif-quarto.drtreimer.com/pages/team.html</loc>
-    <lastmod>2024-03-12T03:11:55.949Z</lastmod>
+    <lastmod>2024-03-14T11:36:26.421Z</lastmod>
   </url>
   <url>
     <loc>https://sif-quarto.drtreimer.com/pages/resources.html</loc>
-    <lastmod>2024-03-12T03:11:55.949Z</lastmod>
+    <lastmod>2024-03-14T11:36:01.879Z</lastmod>
   </url>
   <url>
     <loc>https://sif-quarto.drtreimer.com/pages/fishsizeproject.html</loc>
-    <lastmod>2024-03-12T03:11:55.949Z</lastmod>
+    <lastmod>2024-03-14T11:38:14.389Z</lastmod>
   </url>
   <url>
-    <loc>https://sif-quarto.drtreimer.com/pages/empty.html</loc>
-    <lastmod>2024-03-12T03:11:55.949Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sif-quarto.drtreimer.com/pages/data.html</loc>
-    <lastmod>2024-03-12T03:11:55.949Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sif-quarto.drtreimer.com/index.html</loc>
-    <lastmod>2024-03-12T06:19:33.769Z</lastmod>
+    <loc>https://sif-quarto.drtreimer.com/pages/empty-page-template.html</loc>
+    <lastmod>2024-03-14T11:38:13.939Z</lastmod>
   </url>
   <url>
     <loc>https://sif-quarto.drtreimer.com/pages/contact.html</loc>
-    <lastmod>2024-03-12T04:42:18.444Z</lastmod>
+    <lastmod>2024-03-14T11:38:13.874Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sif-quarto.drtreimer.com/index.html</loc>
+    <lastmod>2024-03-14T11:38:50.444Z</lastmod>
   </url>
   <url>
     <loc>https://sif-quarto.drtreimer.com/pages/datasets.html</loc>
-    <lastmod>2024-03-12T03:11:55.949Z</lastmod>
+    <lastmod>2024-03-14T11:38:13.899Z</lastmod>
   </url>
   <url>
     <loc>https://sif-quarto.drtreimer.com/pages/fishers.html</loc>
-    <lastmod>2024-03-12T03:11:55.949Z</lastmod>
+    <lastmod>2024-03-14T11:38:14.183Z</lastmod>
   </url>
   <url>
     <loc>https://sif-quarto.drtreimer.com/pages/managers.html</loc>
-    <lastmod>2024-03-12T03:11:55.949Z</lastmod>
+    <lastmod>2024-03-14T11:37:26.326Z</lastmod>
   </url>
   <url>
     <loc>https://sif-quarto.drtreimer.com/pages/scientists.html</loc>
-    <lastmod>2024-03-12T03:11:55.949Z</lastmod>
+    <lastmod>2024-03-14T11:36:26.391Z</lastmod>
   </url>
   <url>
     <loc>https://sif-quarto.drtreimer.com/pages/testing-page.html</loc>
-    <lastmod>2024-03-12T03:11:55.950Z</lastmod>
+    <lastmod>2024-03-14T11:37:04.424Z</lastmod>
   </url>
 </urlset>
